@@ -1,0 +1,373 @@
+.main-ecom-pad{
+	padding-top: 100px;
+}
+.ecom-form-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.touch-head {
+	position: relative;
+}
+.touch-head::after{
+	position: absolute;
+    content: " ";
+    top: 5px;
+    left: 0;
+    border-bottom: 2px solid;
+    width: 12%;
+    height: 100%;
+}
+.service-head{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.service-head h1{
+    color: #fff;
+    margin-bottom: 23px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.service-head p {
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: normal;
+    color: #fff;
+}
+
+.home-layout-heading-title {
+    font-size: 36px;
+}
+
+.formBox{
+    margin-top: 20px;
+    padding: 50px;
+    padding-top: 20px;
+    background-color: #fff;
+    position: relative;
+    top: 40px;
+}
+.formBox  h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.inputBox{
+	position: relative;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+.inputBox .inputText{
+	position: absolute;
+    font-size: 18px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+}
+.inputBox .input{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+.input-textarea{
+	border: 1px solid rgba(0,0,0,0.2);
+    height: 100px;
+	width: 100%;
+    resize: none;
+    padding: 10px;
+	font-size: 16px;
+}
+.focus .inputText{
+	transform: translateY(-30px);
+	font-size: 14px;
+	opacity: 1;
+	color: #00bcd4;
+
+}
+/* .input{
+	height: 100px !important;
+} */
+.button{
+	width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #03A9F4;
+    color: #fff;
+	text-transform: uppercase;
+    font-weight: 600;
+}
+.technology-logo{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.technology-logo .logo-dev img{
+	margin-bottom:10px;
+}
+
+.nav-center .nav-new-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+
+.logo-tech-head .nav-new-change li a{
+	border-bottom: 1px solid transparent;
+    color: #000;
+    margin-bottom: -1px;
+}
+
+.logo-tech-head .nav-new-change li.active a, .logo-tech-head .nav-new-change li a:hover{
+    color: #555;
+	background-color: transparent;
+    border-bottom-color: #39c;
+}
+
+.logo-head-space{
+	margin-bottom: 20px;
+}
+
+.logo-tech-head .tab-pane ul{
+	margin:0px;
+	padding:0px;
+}
+
+.logo-tech-head .tab-pane ul li{
+	margin: 0 40px 40px;
+	width: 10%;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.admin-app-tab .tab-pane-sub ul li {
+	margin: 0 40px 40px;
+    text-align: center;
+    width: 24%;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.admin-app-tab {
+	background-color: #f2f2f2;
+}
+
+.admin-app-tab .tab-content ul{
+	margin:0px;
+	padding:0px;
+}
+
+
+.nav-pills{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple-icon{
+	text-align: center;
+    font-size: 24px;
+}
+.text-margin{
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.pricing-faq {
+    background-color: #f2f2f2;
+    padding: 20px 0 30px;
+}
+.energy-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.energy-heading h2 {
+    color: #39c;
+    padding-bottom: 10px;
+    font-size: 28px;
+    position: relative;
+}
+.faq-accordion {
+    margin-top: 30px;
+}
+.faq-accordion .panel-group .panel {
+    border-radius: 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    margin-bottom: 30px;
+}
+.faq-accordion .panel-default>.panel-heading {
+    color: #fff;
+    background-color: #39c;
+    border: none;
+    border-left: 4px solid #39c;
+    padding: 16px 20px;
+    position: relative;
+    border-radius: 0;
+}
+.pricing-icons {
+    position: absolute;
+    right: 13px;
+    top: 18px;
+}
+.faq-accordion a {
+    text-decoration: none;
+    display: block;
+	padding-right: 30px;
+}
+.faq-accordion a.collapsed .pricing-icons .fa.fa-plus {
+    display: block;
+}
+.faq-accordion a.collapsed .pricing-icons .fa.fa-minus {
+    display: none;
+}
+.faq-accordion a .pricing-icons .fa.fa-plus {
+    display: none;
+}
+.services-why-biz4group .business-highlights-detail {
+    min-height: 322px;
+}
+
+.admin-app-tab .nav-pills{
+	margin-bottom:35px;
+	flex-wrap: wrap;
+}
+
+.admin-app-tab .nav-pills li{
+	margin-bottom:15px;
+}
+
+#owl-demo .item a{
+	background-color:#39c;
+	color:#fff;
+}
+
+.blue-heading h2{
+	z-index:1;
+}
+
+.blue-heading h2:after{
+	border: 10px solid #dae8f5;
+    height: 80px;
+    width: 80px;
+    top: 25px;
+    left: -25px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.home3-layout-heading::after{
+	display:none;
+}
+	
+
+.solution-free-conultation .solution-free-consultation-m {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+
+.solution-free-conultation .solution-free-consultation-m a {
+    background-color: #ff7534;
+    display: inline-block;
+    padding: 14px 40px;
+    font-size: 17px
+}
+
+.solution-free-conultation .solution-free-consultation-m a i.fa {
+    margin-left: 10px
+}
+
+.solution-free-conultation .solution-free-consultation-m a,
+.solution-free-conultation .solution-free-consultation-m a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+/* Media Queries */
+
+@media (max-width: 1500px) and (min-width: 1200px){
+	#owl-demo .item a {
+    padding: 9px 25px!important;
+	}
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.admin-app-tab .tab-pane-sub ul li {
+    text-align: left;
+    width: 30%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.home-layout-heading-title {
+		font-size: 23px !important;
+	}
+	.services-top-detail {
+		background: url(https://www.biz4group.com/images/ecom-banner.jpg) !important;
+	}
+	.service-head{
+		text-align:center;
+	}
+	.service-head h1{
+		font-size: 23px;
+	}
+	.service-head p{
+		font-size: 18px;
+	}
+	
+	.services-offered .nav>li a {
+    font-size: 22px;
+	}
+	.services-offered .tab-content .tab-pane .services-offered-tab-head h2 {
+    font-size: 22px;
+	}
+	.services-offered .tab-content .tab-pane .services-offered-tab-head img {
+    width: 60px;
+    height: 60px;
+	}
+	.admin-app-tab .tab-pane-sub ul li {
+    margin: 0px 0px 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.logo-tech-head .tab-pane ul li {
+    margin: 0 0px 20px;
+    width: 45%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

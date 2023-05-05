@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>slider</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./owl.carousel.min.css" />
+		<!-- <link rel="stylesheet" href="./owl.theme.default.min.css" /> -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<section class="slider">
+			<div class="owl-carousel">
+				<div class="item">
+					<div class="item-content">
+						<div class="item-header">
+							<h2>Vinum Chenin Blanc</h2>
+							<p class="subheading">The perfect balance of fruity and savory</p>
+						</div>
+						<div class="item-points">
+							<p>
+								<b>Taste:</b> Chenin Blanc is a prime example of this
+								palate-pleasing balance of rich fruit notes and savory smoke.
+							</p>
+							<p><b>Flavor Notes: </b>Peach, Apple, Spice, Pineapple</p>
+							<p><b>VariIetal:</b>100% Chenin Blanc</p>
+						</div>
+						<div class="button">
+							<button class="button-shop">Shop Now - $20</button>
+						</div>
+					</div>
+					<div class="image green">
+						<div class="box clipped"></div>
+						<div class="box1 clipped1"></div>
+						<div class="box2 clipped2"></div>
+						<div class="box3 clipped3"></div>
+
+						<img src="./images/bottle1.webp" alt="" />
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-content">
+						<div class="item-header">
+							<h2>El Pescaito Vino Blanco</h2>
+							<p class="subheading">
+								Spanish white with a school of ripe fruit
+							</p>
+						</div>
+						<div class="item-points">
+							<p>
+								<b>Taste:</b> Bright floral aromas surface immediately when you
+								uncork El Pescaito White Blend.
+							</p>
+							<p><b>Flavor Notes: </b>Nectorine, Wild berries, Spice</p>
+							<p><b>VariIetal:</b> White Blend</p>
+						</div>
+						<div class="button">
+							<button class="button-shop">Shop Now - $39</button>
+						</div>
+					</div>
+					<div class="image pink">
+						<div class="box clipped"></div>
+						<div class="box1 clipped1"></div>
+						<div class="box2 clipped2"></div>
+						<div class="box3 clipped3"></div>
+						<img src="./images/bottle2.webp" alt="" />
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-content">
+						<div class="item-header">
+							<h2>Sous La Mer Rosé</h2>
+							<p class="subheading">A Floral and Citrusy California Rosé</p>
+						</div>
+						<div class="item-points">
+							<p>
+								<b>Taste:</b> A French Rosé through and through, this fruity,
+								floral Rosé will hold its own in nearly any situation.
+							</p>
+							<p><b>Flavor Notes: </b>Nectorine, Wild berries, Spice</p>
+							<p><b>VariIetal:</b>100% Grenache Blend</p>
+						</div>
+						<div class="button">
+							<button class="button-shop">Shop Now - $16</button>
+						</div>
+					</div>
+					<div class="image yellow">
+						<div class="box clipped"></div>
+						<div class="box1 clipped1"></div>
+						<div class="box2 clipped2"></div>
+						<div class="box3 clipped3"></div>
+						<img src="./images/bottle3-1.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<script src="./owl.carousel.min.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				$(".owl-carousel").owlCarousel({
+					center: true,
+					items: 1,
+					// autoWidth: true,
+					loop: true,
+					animateOut: "slideOutDown",
+					animateIn: "flipInX",
+					responsive: {
+						0: {
+							items: 1,
+						},
+						600: {
+							items: 1,
+						},
+						1000: {
+							items: 1,
+						},
+					},
+				});
+			});
+		</script>
+	</body>
+</html>

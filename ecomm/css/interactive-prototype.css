@@ -1,0 +1,372 @@
+.fixed-top {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.footer {
+  padding-top: 2rem;
+}
+
+.interactive-prototype-page .theme-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 29px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Segoe UI Bold";
+  min-width: 150px;
+}
+
+.interactive-prototype-page .theme-button.yellow-button {
+  background-color: #ff9630;
+  color: #fff;
+  font-size: 14px;
+}
+
+.interactive-prototype-page .theme-button.yellow-button:hover {
+  background-color: #ff9630;
+  color: #fff;
+}
+
+.interactive-prototype-page .prototype-banner-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+  position: relative;
+  background-position: top left;
+}
+
+.interactive-prototype-page .prototype-banner-section:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(5%, #e17914), color-stop(50%, transparent), color-stop(45%, transparent));
+  background-image: linear-gradient(to left, #e17914 5%, transparent 50%, transparent 45%);
+}
+
+.interactive-prototype-page .prototype-banner-section .prototype-banner-img {
+  position: relative;
+  z-index: 1;
+}
+
+.interactive-prototype-page .prototype-banner-section .prototype-banner-img img {
+  width: 100%;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-heading {
+  margin-bottom: 25px;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-heading h1 {
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px !important;
+  font-family: "Segoe UI Regular";
+  position: relative;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-heading h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-heading h1:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 94px;
+  width: 180px;
+  height: 17px;
+  background-color: #ff9630;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-brif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-brif .brif-img {
+  margin-right: 15px;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-brif .brif-img img {
+  width: 80px;
+}
+
+.interactive-prototype-page .prototype-banner-section .banner-content .banner-brif .brif-title h2 {
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 36px !important;
+  line-height: 40px;
+  font-family: "Segoe UI Bold";
+}
+
+.interactive-prototype-page .section-prototype {
+  padding: 50px 0px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading {
+  margin: 0px 15px 15px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto 15px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  left: 0px;
+  bottom: 12px;
+  background-color: #ff9630;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 40px;
+  left: 30px;
+  bottom: 12px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner h2 {
+  font-family: "Segoe UI Bold";
+  color: #000000;
+  margin: 0px 10px 0px 0px;
+  padding: 0px 0px 18px;
+  font-size: 28px !important;
+  line-height: 32px;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner h2 span {
+  color: #FF9630;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner h2::before {
+  position: absolute;
+  content: "";
+  border: 8px solid #FF9630;
+  height: 54px;
+  width: 54px;
+  top: -15px;
+  left: -18px;
+  z-index: -1;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner .prototype-heading-img {
+  position: relative;
+  z-index: 1;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .heading-inner .prototype-heading-img img {
+  width: 60px;
+  min-width: 60px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .prototype-heading-pera {
+  text-align: center;
+}
+
+.interactive-prototype-page .section-prototype .prototype-heading .prototype-heading-pera p {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px !important;
+  font-family: "Segoe UI Regular" !important;
+  display: inline-block;
+}
+
+.interactive-prototype-page .section-prototype .prototype-inner .prototype-nav {
+  padding: 20px 0px;
+  margin-bottom: 10px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-inner .prototype-nav .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.interactive-prototype-page .section-prototype .prototype-inner .prototype-nav .nav .nav-item .nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Segoe UI Bold";
+  background-color: transparent;
+  color: #FF9630;
+  font-size: 14px;
+  border-color: #FF9630;
+  min-width: 165px;
+  border-radius: 29px !important;
+  margin: 0px 10px 10px;
+  white-space: nowrap;
+}
+
+.interactive-prototype-page .section-prototype .prototype-inner .prototype-nav .nav .nav-item .nav-link.active, .interactive-prototype-page .section-prototype .prototype-inner .prototype-nav .nav .nav-item .nav-link:hover {
+  background-color: #ff9630;
+  color: #fff;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card {
+  background-color: #EEEEEE;
+  padding: 15px 15px 30px;
+  margin-bottom: 30px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card .prototype-card-img {
+  margin-bottom: 15px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card .prototype-card-img img {
+  max-height: 230px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 230px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card .card-content {
+  text-align: center;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card .card-content .content-heading {
+  margin-bottom: 20px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card .card-content .content-heading h3 {
+  color: #2A2B2A;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px !important;
+  font-family: "Segoe UI Bold";
+  display: block;
+  line-height: 20px;
+}
+
+.interactive-prototype-page .section-prototype .prototype-card .card-content .card-btn .button {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  min-width: 150px;
+  width: auto;
+}
+
+.interactive-prototype-page .prototype-cta-section {
+  position: relative;
+  background-size: cover;
+  background-position: top right;
+}
+
+.interactive-prototype-page .prototype-cta-section .technical-content {
+  padding: 70px 0px;
+  max-width: 340px;
+}
+
+.interactive-prototype-page .prototype-cta-section .technical-content h2 {
+  color: #2A2B2A;
+  font-family: "Segoe UI Bold";
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px !important;
+  line-height: 42px;
+  margin-bottom: 20px !important;
+}
+
+.interactive-prototype-page .prototype-cta-section .technical-content .technical-btn .button {
+  min-width: 200px;
+  width: 100%;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 767px) {
+  .interactive-prototype-page .prototype-banner-section {
+    height: auto;
+  }
+  .interactive-prototype-page .prototype-banner-section:after {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #d67210d1), color-stop(72%, transparent), color-stop(0%, transparent));
+    background-image: linear-gradient(to right, #d67210d1 20%, transparent 72%, transparent 0%);
+  }
+  .interactive-prototype-page .prototype-banner-section .prototype-banner-img {
+    margin-bottom: 20px;
+  }
+  .interactive-prototype-page .prototype-banner-section .banner-content .banner-heading h1 {
+    font-size: 24px !important;
+    line-height: 28px;
+  }
+  .interactive-prototype-page .prototype-banner-section .banner-content .banner-heading h1::after {
+    display: none;
+  }
+  .interactive-prototype-page .prototype-banner-section .banner-content .banner-brif .brif-img img {
+    width: 50px;
+  }
+  .interactive-prototype-page .prototype-banner-section .banner-content .banner-brif .brif-title h2 {
+    font-size: 30px !important;
+    line-height: 34px;
+  }
+  .interactive-prototype-page .section-prototype {
+    padding: 40px 0px;
+  }
+  .interactive-prototype-page .section-prototype .prototype-heading .heading-inner h2 {
+    font-size: 24px !important;
+    line-height: 28px;
+    padding: 0px 0px 20px 5px;
+  }
+  .interactive-prototype-page .section-prototype .prototype-heading .prototype-heading-pera p {
+    font-size: 14px !important;
+  }
+  .interactive-prototype-page .section-prototype .prototype-card .prototype-card-img img {
+    height: auto;
+  }
+  .interactive-prototype-page .section-prototype .prototype-card .card-content .content-heading h3 {
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+  .interactive-prototype-page .prototype-cta-section .technical-content h2 {
+    font-size: 24px !important;
+    line-height: 28p;
+  }
+}
+/*# sourceMappingURL=interactive-prototype.css.map */

@@ -1,0 +1,207 @@
+@import "./font.scss";
+@import "./common.scss";
+
+.pricing {
+  .row {
+    margin-top: -10%;
+  }
+  .pricing-header {
+    background: url("../images/contact-about-background.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0 8rem 0;
+    background-position: 10px -167px;
+    @media (min-width: 481px) and (max-width: 999px) {
+      background-position: 10px -33px;
+    }
+  }
+  margin-top: 7%;
+  @media (min-width: 481px) and (max-width: 999px) {
+    margin-top: 14% !important;
+  }
+  @media (max-width: 480px) {
+    margin-top: 35% !important;
+  }
+
+  h2 {
+    color: $mainOrange !important;
+    font-size: 2rem;
+    text-align: center;
+    &::after {
+      content: "";
+      left: 49.5% !important;
+      height: 4px;
+    }
+    &::before {
+      content: "";
+      height: 4px;
+    }
+
+    span {
+      color: $black;
+      font-size: 1.2rem;
+      font-family: Roboto-Medium;
+    }
+  }
+  .col-lg-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.fa-ul {
+  li {
+    font-family: Roboto-Bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 !important;
+    padding: 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      border: 0.5px dashed grey !important;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+  }
+  margin-left: 0 !important;
+}
+.pricing .card {
+  transition: all 0.2s;
+  // box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 
+0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  @media (max-width: 999px) {
+    border-radius: 1rem;
+  }
+}
+.pricing .first-card {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  overflow: hidden;
+}
+.pricing .last-card {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+}
+
+.pricing hr {
+  margin: 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin: 1.4rem 0;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  // .pricing .card:hover {
+  //   margin-top: -0.25rem;
+  //   margin-bottom: 0.25rem;
+  //   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  // }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.card-body {
+  padding: 0 !important;
+  border-radius: 15px !important;
+  .features {
+    font-family: Roboto-Bold;
+    font-size: 1.5rem !important;
+    color: $mainOrange;
+    padding: 100.5px 0 80px 0;
+    @media (max-width: 999px) {
+      padding: 30.5px 0 20px 0;
+    }
+    p {
+      color: $black;
+      text-transform: capitalize;
+    }
+  }
+  .plans {
+    background-color: $lightOrange;
+    padding: 36px 10px;
+    margin: 0px !important;
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+    color: $mainWhite;
+    &--bottom {
+      font-size: 1.2rem;
+      color: $black;
+      padding: 25px 20px 15px 20px;
+      @media (max-width: 999px) {
+        text-align: center;
+      }
+    }
+  }
+  .price {
+    background-color: $mainOrange;
+    margin: 0px !important;
+    padding: 30px 10px;
+    font-size: 1.5rem;
+    color: $mainWhite;
+    p {
+      font-size: 1rem;
+      font-family: Roboto-Light;
+      padding-top: 10px;
+    }
+  }
+  .cloud-price {
+    padding: 52.5px 0 !important;
+  }
+  button {
+    margin: 19.5px 0;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    .free-ssl {
+      padding: 32px 0;
+    }
+  }
+}
+.footer {
+  padding-top: 5rem;
+}

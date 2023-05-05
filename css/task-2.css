@@ -1,0 +1,265 @@
+body {
+	font-family: "Libre Baskerville", serif;
+	margin: 0;
+}
+
+.slider {
+	width: 100%;
+	background-color: #808c68;
+	padding: 30px 0;
+	height: 90vh;
+}
+.slider .item {
+	display: flex;
+	max-width: 1150px;
+	width: 80%;
+	background-color: #fff;
+	padding: 30px;
+	margin: 0 auto;
+	align-items: center;
+	height: 80vh;
+	background-image: url(./images/draw.webp);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-color: #fcfbf7;
+}
+/* .slider .owl-item.center {
+	width: 100%;
+} */
+
+.slider .item .item-content {
+	width: 50%;
+	padding-left: 30px;
+
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.image {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.slider .item img {
+	max-width: 30%;
+	z-index: 99;
+}
+
+.item-content h2 {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+}
+.item-content .subheading {
+	margin: 0;
+	padding-top: 2px;
+	font-size: 20px;
+	font-family: "Inter", sans-serif;
+}
+p {
+	font-family: "Inter", sans-serif;
+}
+.button-shop {
+	padding: 12px 30px;
+	font-size: 16px;
+	background-color: #32373c;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.box {
+	background-color: #e1e5cd;
+	padding: 2px;
+	width: 55%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	z-index: 5;
+}
+.box1 {
+	background-color: #e1e5cd;
+	padding: 2px;
+	width: 55%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.box2 {
+	background-color: #e1e5cd;
+	padding: 2px;
+	width: 55%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+}
+.box3 {
+	background-color: #e1e5cd;
+	padding: 2px;
+	width: 55%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.pink .box1,
+.pink .box2,
+.pink .box3,
+.pink .box {
+	width: 50%;
+}
+
+.clipped {
+	clip-path: circle(100% at bottom right);
+	transition: all 0.5s ease;
+}
+.clipped2 {
+	clip-path: circle(100% at bottom left);
+	transition: all 0.5s ease;
+}
+.clipped3 {
+	clip-path: circle(100% at top left);
+	transition: all 0.5s ease;
+}
+.clipped1 {
+	clip-path: circle(100% at top right);
+	transition: all 0.5s ease;
+}
+
+.slider .owl-item.center .green .clipped {
+	transform: rotate(90deg);
+}
+.slider .owl-item.center .green .clipped1 {
+	transform: rotate(-90deg);
+}
+.slider .owl-item.center .green .clipped3 {
+	transform: rotate(-90deg);
+}
+
+.pink .box,
+.pink .box1,
+.pink .box2,
+.pink .box3 {
+	background-color: pink;
+}
+
+.pink {
+	width: 50%;
+}
+.slider .owl-item.center .pink .clipped1 {
+	transform: rotate(-270deg);
+}
+.slider .owl-item.center .pink .clipped2 {
+	transform: rotate(90deg);
+	/* top: 16px; */
+}
+.yellow .box,
+.yellow .box1,
+.yellow .box2,
+.yellow .box3 {
+	background-color: #ececcf;
+}
+
+.slider .owl-item.center .yellow .clipped1 {
+	transform: rotate(90deg);
+}
+.slider .owl-item.center .yellow .clipped2 {
+	transform: rotate(-90deg);
+}
+
+.slider .owl-item {
+	transition: all 1s ease;
+}
+
+.slider .owl-item:nth-child(odd) {
+	transform: scaleY(0.9);
+}
+
+.slider .owl-item.center {
+	transition: all 0.5s ease;
+	transform: scaleY(1);
+}
+
+@media (max-width: 1250px) {
+}
+@media (max-width: 991px) {
+	.slider .item {
+		flex-direction: column;
+		height: auto;
+		width: 80%;
+	}
+
+	.slider {
+		height: auto;
+	}
+	.item-content {
+		order: 2;
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+	}
+	.item-content h2 {
+		font-size: 20px;
+		padding-top: 20px;
+	}
+	.item-content p {
+		font-size: 14px;
+	}
+	.subheading {
+		font-size: 14px;
+	}
+	/* .owl-carousel .owl-stage {
+		width: 100% !important;
+	} */
+
+	.clipped1 {
+		transition: all 1s ease-in-out;
+	}
+	.image {
+		width: 50%;
+	}
+	.pink {
+		width: 60%;
+	}
+}
+
+@media (max-width: 767px) {
+	.slider .item {
+		width: 50%;
+	}
+	.image {
+		width: 86%;
+	}
+	.slider .item .item-content {
+		width: 75%;
+	}
+}
+
+@media (max-width: 480px) {
+	.slider .item {
+		/* width: 40%; */
+		width: 60%;
+	}
+	.slider .item .item-content {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.image {
+		width: 100%;
+	}
+
+	.item-points {
+		display: none;
+	}
+	.item-content .subheading {
+		padding: 10px 0;
+	}
+}
+
+@media (max-width: 320px) {
+}

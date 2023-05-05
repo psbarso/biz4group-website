@@ -1,0 +1,94 @@
+.ip-artifacts-section{
+	padding-top: 60px;
+}
+
+.ip-artifacts-section .artifacts-img{
+	margin-bottom: 20px;
+}
+
+.ip-artifacts-section .artifacts-img img{
+	width: 100%;
+}
+
+.ip-artifacts-section .ip-artifacts-content{
+}
+
+.ip-artifacts-section .ip-artifacts-heading{
+	margin-bottom: 20px;
+}
+
+.ip-artifacts-section .ip-artifacts-heading h2{
+	 font-size: 34px;
+    font-weight: 700;
+    color: #243c58;
+    margin: 0px;
+    line-height: 42px;
+}
+
+.ip-artifacts-section .ip-artifacts-list{}
+
+.ip-artifacts-section .ip-artifacts-list ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.ip-artifacts-section .ip-artifacts-list ul li{
+	list-style: none;
+	display: flex;
+	margin-bottom: 15px;
+} 
+
+.ip-artifacts-section .ip-artifacts-list ul li i{
+	margin-right: 10px;
+	font-size: 18px;
+	color: #243c58;
+} 
+
+.ip-artifacts-section .ip-artifacts-list ul li p{
+    font-size: 18px;
+    color: #243c58;
+    line-height: 22px;
+    margin: 0px
+} 
+
+.ip-artifacts-section .ip-artifacts-note p{
+	font-size: 18px;
+    color: #243c58;
+    line-height: 22px;
+    margin: 0px;
+    font-weight:600;
+}
+
+@media only screen and (min-width: 991px) {
+ 	.ip-artifacts-section .ip-artifacts-content{
+		padding-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ip-artifacts-section{
+		padding-bottom: 10px;
+	}
+	.ip-artifacts-section .ip-artifacts-heading h2{
+		font-size: 24px;
+	    line-height: 30px;
+	}
+
+ 	.ip-artifacts-section .artifacts-img{
+		margin-bottom: 30px;
+	}
+
+	.ip-artifacts-section .ip-artifacts-list ul li i{
+		font-size: 13px;
+	} 
+
+	.ip-artifacts-section .ip-artifacts-list ul li p{
+	    font-size: 13px;
+	    line-height: 17px;
+	} 
+
+	.ip-artifacts-section .ip-artifacts-note p{
+		font-size: 13px;
+	    line-height: 17px;
+	}
+}

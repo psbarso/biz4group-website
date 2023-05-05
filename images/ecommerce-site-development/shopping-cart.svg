@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.188" height="50" viewBox="0 0 52.188 50">
+  <g id="shopping-cart" transform="translate(0.001 -10.735)">
+    <g id="Group_43" data-name="Group 43" transform="translate(-0.001 10.735)">
+      <g id="Group_42" data-name="Group 42" transform="translate(0 0)">
+        <path id="Path_74" data-name="Path 74" d="M51.285,17.748a3.912,3.912,0,0,0-3.027-1.415H17.977a1.12,1.12,0,1,0,0,2.239h30.28a1.649,1.649,0,0,1,1.293.6,1.71,1.71,0,0,1,.358,1.419l-4.49,22.374a1.694,1.694,0,0,1-1.655,1.358H18.787L8.476,13.388a3.994,3.994,0,0,0-3.794-2.652h0c-1.466.05-2.952.05-3.316.025A1.12,1.12,0,0,0,.328,12.646c.348.347.465.464,4.39.328a1.729,1.729,0,0,1,1.63,1.136L16.91,45.8a1.123,1.123,0,0,0,1.066.766H43.763a3.931,3.931,0,0,0,3.854-3.139l4.5-22.4A3.941,3.941,0,0,0,51.285,17.748Z" transform="translate(0.001 -10.735)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_45" data-name="Group 45" transform="translate(16.533 44.294)">
+      <g id="Group_44" data-name="Group 44">
+        <path id="Path_75" data-name="Path 75" d="M191.986,349.93H171.352a1.729,1.729,0,0,1-1.59-1.155l-2.211-6.576a1.134,1.134,0,0,0-2.149.723l2.215,6.589a3.98,3.98,0,0,0,3.735,2.686h20.635a1.133,1.133,0,1,0,0-2.267Z" transform="translate(-165.342 -341.426)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_47" data-name="Group 47" transform="translate(19.631 52.798)">
+      <g id="Group_46" data-name="Group 46" transform="translate(0 0)">
+        <path id="Path_76" data-name="Path 76" d="M196.873,424.1a3.968,3.968,0,1,0,3.968,3.968A3.973,3.973,0,0,0,196.873,424.1Zm0,5.669a1.7,1.7,0,1,1,1.7-1.7A1.7,1.7,0,0,1,196.873,429.773Z" transform="translate(-192.905 -424.104)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_49" data-name="Group 49" transform="translate(39.209 52.798)">
+      <g id="Group_48" data-name="Group 48" transform="translate(0 0)">
+        <path id="Path_77" data-name="Path 77" d="M389.779,424.1a3.968,3.968,0,1,0,3.968,3.968A3.973,3.973,0,0,0,389.779,424.1Zm0,5.669a1.7,1.7,0,1,1,1.7-1.7A1.7,1.7,0,0,1,389.779,429.773Z" transform="translate(-385.811 -424.104)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

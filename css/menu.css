@@ -1,0 +1,211 @@
+.menu-singleRow {
+  border-top: solid 1px #ddd;
+  border-left: solid 1px #ddd;
+  border-right: solid 1px #ddd;
+  text-align: left;
+  padding: 0;
+}
+.menu-singleRow li {
+  border-bottom: solid 1px #ddd;
+  text-align: left;
+  padding: 7px 15px;
+  color: #293B56;
+}
+.menu-singleRow li:hover {
+  background: #293B56;
+}
+.menu-singleRow li:hover a {
+  color: #fff !important;
+}
+.menu-singleRow li a {
+  padding: 0;
+  font-size: 14px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .menu-singleRow .dropdown-menu {
+    border-top: solid 1px #ddd !important;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+  }
+}
+
+.iconImg span {
+  background: #293B56;
+  padding: 6px;
+  border-radius: 100%;
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.iconImg span i {
+  color: #fff;
+}
+
+.dropdown-menu {
+  cursor: pointer;
+}
+
+.cutom-menu:hover {
+  background: #293B56;
+}
+.cutom-menu:hover .cutomLink {
+  color: #fff;
+}
+.cutom-menu:hover .cutomLink Span i {
+  color: #fff;
+  transform: rotate(180deg);
+}
+.cutom-menu:hover .cutomLink:hover {
+  color: #fff !important;
+}
+.cutom-menu a:hover {
+  color: #fff;
+}
+
+.border-cap {
+  border: solid 1px #ddd;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.our-services-subHead h3 {
+  padding-bottom: 15px;
+  margin: 0;
+  color: #293B56;
+}
+
+.menu-serviceInnerList {
+  padding: 0;
+  list-style: none;
+}
+.menu-serviceInnerList li {
+  border-bottom: solid 1px #ddd;
+  text-align: left;
+  padding: 10px 5px !important;
+  color: #293B56;
+  margin-bottom: 0 !important;
+  margin-right: 35px;
+  list-style: none;
+}
+.menu-serviceInnerList li:last-child {
+  border-bottom: solid 1px transparent;
+}
+.menu-serviceInnerList li:hover {
+  background: #293B56;
+}
+.menu-serviceInnerList li:hover a {
+  color: #fff !important;
+}
+.menu-serviceInnerList li a {
+  padding: 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #293B56;
+  width: 100% !important;
+  display: inline-block;
+}
+
+.margin-ul {
+  margin-top: 50px !important;
+}
+@media screen and (max-width: 767px) {
+  .margin-ul {
+    margin-top: 0px !important;
+  }
+}
+
+.black-blur::after {
+  top: 1px;
+  background: #ddd !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 2px;
+  right: 15px;
+}
+
+.menu-serviceInner {
+  border: solid 1px #ddd;
+  text-align: left;
+  padding: 0;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+.menu-serviceInner h3 {
+  margin: 0;
+  padding-bottom: 15px;
+  color: #293B56;
+}
+
+.main-inner-header {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.main-inner-header h1 {
+  padding: 15px 5px !important;
+  font-size: 15px !important;
+  margin: 0 !important;
+  color: #293B56 !important;
+}
+
+.megamenucase-study {
+  border: solid 1px #ddd;
+}
+.megamenucase-study img {
+  -o-object-fit: cover;
+     object-fit: cover;
+	 height:auto;
+}
+.megamenucase-study .btnInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 65px;
+  background: #fff;
+}
+.megamenucase-study .btnInner:hover {
+  background: #293B56;
+  transition-delay: 0.1s;
+}
+.megamenucase-study .btnInner:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+.megamenucase-study .btnInner a {
+  color: #293B56;
+  text-decoration: none;
+}
+
+.mega-dropdown-menu li ul li a::after {
+  display: none !important;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+.dropdown-menu li a, .mega-dropdown-menu li ul li a {
+    font-size: 14px !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-logo img {
+    max-width: 100px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-logo img {
+    max-width: 100px;
+    margin-top: 20px;
+  }
+}
+.navbar-brand>img{
+	height:auto;
+}
+
+/*# sourceMappingURL=menu.css.map */

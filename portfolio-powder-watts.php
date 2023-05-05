@@ -1,0 +1,592 @@
+<?php include_once("includes/header-service.php");
+?>
+
+<link rel="stylesheet" href="css/portfolionew.css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com" media="all" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;900&display=swap" media="all" rel="stylesheet">
+<style>
+   img{
+   height: auto;
+   width: 100%;
+   }
+  .card-height{
+     height: 220px;
+     min-height:220px;  
+    }
+   .quote-bottom, .quote-top img{
+      height: 110px !important;
+    width: 80px !important;
+    object-fit: contain;
+
+   }
+   .quote-bottom {
+    position: absolute;
+    bottom: -94px !important; 
+    right: 125px !important;
+    z-index: 1;
+    object-fit: contain;
+}
+.quote-bottom img {
+    height: 69px !important;
+}
+   .theme-color{
+   color:#004976}
+   .theme-bg{
+   background-color:#004976}
+   .theme-border{
+   border:2px solid #004976;
+   background: #FFFFFF;
+   border-radius: 20px;
+   padding:15px;
+   }
+   .subject-matter::after{
+   background-color: #004976;
+   }
+   .tech-stack:hover {
+   background-color:#004976;
+   color:#ffffff;
+   }
+   .tech-stack:hover h3::after{
+   background-color:#ffffff;
+   }
+   .why-us:hover{
+   background-color:#004976;
+   color:#ffffff;}
+   .why-us:hover h3::after{
+   background-color:#ffffff;
+   }
+   .portfolio-banner{
+   background-image: url("https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/Powder-watts/powder-watts-banner-new.webp");
+   }
+   .testomonial-outer{
+   border: 10px solid #004976 ;}	
+   div#owl-demo-portfolio .owl-dots{
+   display:none;}
+   
+   .why-us .horizontal-line::after {
+		left: 50%;
+		margin-left: -35px;
+	}
+</style>
+<div class="app-portfolio-page">
+<section>
+   <div class="portfolio-banner ">
+      <div class="container">
+         <div class="row flex-disp flex-align-center flex-wrap flex-justify-center">
+            <div class="col-md-8 col-sm-12  alt-order">
+               <img loading="lazy" width="640" height="320" alt="shiftfit-bannerimg" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/Powder-watts/powder-watts-bannerimg.webp"/>
+            </div>
+            <div class="col-md-4 col-sm-12 center-al">
+               <h1 class="horizontal-line bg-white banner"><b>PORTFOLIO</b></h1>
+               <h2>An advanced IoT-based heat cable management system</h2>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--banner-->
+<!-- work-section start -->
+<section class="challenge-section">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h2 class="heading-section margin-b-3 text-center">OUR SMART, EFFICIENT & PRODUCTIVE APPROACH</h2>
+         </div>
+         <div class="col-md-5 col-lg-5 col-sm-12 margin-b-3">
+            <div class="challenge-card">
+               <div class="challenge-img">
+                  <img class="fix-img" loading="lazy" width="640" height="320"  src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/Powder-watts/powder-watts-challenge-new.webp" alt="challenge-new"/>
+               </div>
+               <div class="challenge-left">
+                  <div class="challenge-left-heading ">
+                     <h3 class="theme-color horizontal-line bg-shiftfit">The Challenge</h3>
+                  </div>
+                  <div class="challenge-content">
+                     <p>
+                       On average, most American residents waste 1000 LBS to 2000 LBS of C02 monthly. To eliminate this waste of resources, a leading company connected with us to develop an efficient solution to this issue. For us, developing a <b>robust and highly functional technology</b> is less challenging than making applications in various languages and frameworks. But, with the extravagant efforts of our tech experts, we conceptualize the idea by initially simplifying app development and emphasizing developing solutions that serve <b>360 degrees of heat cable management</b> benefits and provide satisfaction to users. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-7 col-lg-7 col-sm-12 margin-b-3">
+            <div class="challenge-card">
+               <div class="challenge-img">
+                  <img class="fix-img" loading="lazy" width="640" height="320" alt="powder-watts-project-highlights" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/Powder-watts/powder-watts-project-highlights.webp"/>
+               </div>
+               <div class="challenge-left">
+                  <div class="challenge-left-heading ">
+                     <h3 class="theme-color horizontal-line bg-shiftfit">Project Highlights</h3>
+                  </div>
+                  <div class="challenge-content">
+                     <ul>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p>In-hand control of heating cables</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p>Huge power savings </p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p>AI-enabled smart cameras </p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p>Heat cables automation</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p>Alerts & warnings </p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p>Judicious power consumption</p>
+                           </div>
+                        </li>
+                        <li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- work-section end -->
+<!-- section-insights start -->
+<section class="section-insights">
+   <div class="container">
+      <div class="inner-insights theme-bg padding-3">
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="horizontal-line bg-white">Insights</h2>
+               <div style="margin-bottom:30px;">
+                  <p>
+                    Our experienced IoT developers collaborated with a heat cable management company that wanted to deliver smart and cost-effective technologies that proved to be beneficial in terms of utility, people, and environment. Years of extensive experience in innovations and technology enabled our developers to build world-class solutions that proved to be highly functional in saving power by manifolds and providing users with constant notifications and reminders. Loaded with advanced features such as easy installation, easy connectivity, and a seamless structure, our objective was to build a platform that allowed the users the enjoy the snow and not worry about their roofs getting damaged.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- section-insights end -->
+<!-- section-screens start -->
+<section class="section-screens">
+   <div class="container">
+      <h2 class="heading-section margin-b-3 text-center">Creative Designs</h2>
+      <div class="screens-inner">
+         <div class="screens-web-img">
+            <img loading="lazy" width="640" height="320" alt="powder-watts-screens" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/Powder-watts/powder-watts-screens.webp" />
+         </div>
+      </div>
+   </div>
+</section>
+<!-- section-screens end -->
+<!-- section-architecture start -->
+<section >
+   <div class="container">
+      <div class="architecture">
+         <h2 class="heading-section margin-b-3 text-center">Technical Architecture</h2>
+         <div class="screens-inner">
+            <div class="screens-web-img flex-disp flex-justify-center">
+               <img class="fix-img" loading="lazy" width="640" height="320" alt="architecture" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/subsciety-architecture.webp">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- section-architecture end -->
+<!-- section-leader-start -->
+<section>
+   <div class="container">
+      <h2 class="heading-section margin-b-3 text-center">Leader Of The Effort</h2>
+      <div class="subject-matter">
+         <div class="">
+            <div class="flex-disp">
+               <img class="fix-img margin-end-5 bd-50" loading="lazy" width="640" height="320" alt="sme-img" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/sme-img.webp">
+               <div>
+                  <h4 class="theme-color horizontal-line bg-shiftfit">Sanjeev Verma</h4>
+                  <p><b>Exp: 20+ Years</b></p>
+               </div>
+            </div>
+            <h3 class="">Subject Matter Expert</h3>
+            <p class="content">Sanjeev Verma has been actively conceptualizing and creating software solutions for the past 20 years in the IT domain. He has worked on technical leadership positions with Marriott Vacations, Disney, MasterCard, Statefarm, and Oracle.
+               He has been a key player in developing, implementing, and monitoring Digital Solutions ranging from IoT solutions &amp; products, Mobile and Web Development, and Digital Marketing to Full Stack Development and CMS solutions.
+            </p>
+         </div>
+      </div>
+   </div>
+</section>
+<!--section-architecture end -->
+<!-- section-why-biz4group-start -->
+<section>
+   <div class="container">
+      <h2 class="heading-section margin-b-3 text-center">Why Biz4Group</h2>
+      <div class="row">
+         <div class="col-md-4">
+            <div class="why-us theme-border margin-b-3 text-center">
+               <h3 class="horizontal-line bg-black">Trusted Advisors</h3>
+               <p>Skilled Developers for Deployment</p>
+			   <p>Collaborative efforts of Subject matter Experts </p>
+			   <p>On time delivery ensuring Desirable Outputs </p>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="why-us theme-border margin-b-3 text-center">
+               <h3 class="horizontal-line bg-black">Distinctive Quality</h3>
+               <p>Offering exemplary code quality</p>
+			   <p>User-friendly UI/UX </p>
+			   <p>Prioritize client expectation </p>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="why-us theme-border margin-b-3 text-center">
+               <h3 class="horizontal-line bg-black"> Continuous Assistance</h3>
+               <p>24/7 Technical Support</p>
+			   <p>Post Delivery Consultation</p>
+			   <p>Continuous Server Monitoring</p>
+			   <p>DB Clean Up</p>
+			   <p>Cost Effective Customer Support Plans </p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- section-why-biz4group-end -->
+<!-- section-above-and-beyond-start-->
+<section class="section-screens">
+   <div class="business-benefits">
+      <div class="container">
+         <h2 class="heading-section margin-b-3 text-center">Going Above & Beyond</h2>
+         <div class="row flex-disp flex-align-center flex-wrap">
+            <div class="col-md-6 col-xs-12 padding-0 col-sm-12">
+               <img loading="lazy" width="640" height="320" alt="subsciety-business" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/subsciety/subsciety-business-benefits.webp"/>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
+               <div class="challenge-left">
+                  <div class="challenge-left-heading ">
+                     <h3 class="theme-color horizontal-line bg-shiftfit">Business Benefits</h3>
+                  </div>
+                  <div class="challenge-content">
+                     <ul>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Winning customer trust and satisfaction by saving as much as 90% on the power bills </p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p class="content">Staying ahead of competitors with the use of advanced features and technologies.</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p class="content">Expansion in customer base with the use of patented smart camera monitoring.</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i>
+                              <p class="content">With the ease of installation as well as maintenance, acquiring an improved marketplace.</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row flex-disp flex-align-center flex-wrap">
+            <div class="col-md-6 col-xs-12 col-sm-12 alt-order">
+               <div class="challenge-left">
+                  <div class="challenge-left-heading ">
+                     <h3 class="theme-color bg-shiftfit horizontal-line">Why We Use Reusable Technical Components</h3>
+                  </div>
+                  <div class="challenge-content">
+                     <ul>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content"><span class="theme-color content">Efficiency:</span> Reusable components help us save development efforts and deploy the application faster and for less cost. </p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content"><span class="theme-color content">Consistency:</span> With the primary functions being consistent, we get greater control and scalability of the app. </p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content"><span class="theme-color content">Proven Codebase:</span> Various developers have used the code many times, making the functionality already proven in the field.</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12 padding-0">
+               <img loading="lazy" width="640" height="320" alt="technical-components" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/technical-components.webp"/>
+            </div>
+         </div>
+         <div class="row flex-disp flex-align-center flex-wrap">
+            <div class="col-md-6 padding-0">
+               <img loading="lazy" width="640" height="320" alt="reusability" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/role-as-ta.webp"/>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
+               <div class="challenge-left">
+                  <div class="challenge-left-heading ">
+                     <h3 class="theme-color horizontal-line bg-shiftfit">Role As Trusted Advisor</h3>
+                  </div>
+                  <div class="challenge-content">
+                     <ul>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Facilitating value-added artifacts like Architecture diagrams</p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Design Guidelines </p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Regular Status reports </p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Review calls </p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Best Coding practices and test cases</p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Advance Deliveries </p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Regular inputs for Product Enhancement</p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Post-deployment technical support   </p>
+                           </div>
+                        </li>
+						<li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">Consultation </p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row flex-disp flex-align-center flex-wrap">
+            <div class="col-md-6 col-xs-12 col-sm-12 alt-order ">
+               <div class="challenge-left ">
+                  <div class="challenge-left-heading">
+                     <h3 class="theme-color horizontal-line bg-shiftfit">Cost Low</h3>
+                  </div>
+                  <div class="challenge-content">
+                     <ul>
+                        <li>
+                           <div class="flex-disp">
+                              <i class="fa fa-angle-double-right"></i> 
+                              <p class="content">With plug and play components and reusable technical modules, we bring down the overall development cost by substantial margins.</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-xs-12 padding-0 col-sm-12">
+               <img loading="lazy" width="640" height="320" alt="suggestion" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/cost-low.webp"/>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- section-above-end -->
+<section class="">
+   <div class="container">
+      <div class="architecture">
+         <h2 class="heading-section margin-b-3 text-center">Development Life Cycle</h2>
+         <div class="screens-inner">
+            <div class="screens-web-img flex-disp flex-justify-center">
+               <img loading="lazy" width="640" height="320" alt="subsciety-development-lifecycle" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/subsciety-development-lifecycle.webp">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--tech-stack-->
+<section>
+   <div class="container">
+      <h2 class="heading-section margin-b-3 text-center">Tech Stack</h2>
+      <div class="owl-carousel owl-theme owl-demo2">
+         <div class="item">
+            <div class="tech-stack margin-b-3">
+               <div class="tech-box"><img loading="lazy" width="640" height="320" alt="express-js-icon" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/express-js-icon.webp"></div>
+               <h3 class="horizontal-line bg-shiftfit">Express</h3>
+               <p>Express.JS improves an application's scalability and allows the website to load quicker than ever before. Furthermore, since it facilitates non-blocking I/O operations, the speed of code execution is also improved by the runtime environment.</p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="tech-stack margin-b-3">
+               <div class="tech-box"><img loading="lazy" width="640" height="320" alt="ReactJS" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/ReactJS.webp"></div>
+               <h3 class="horizontal-line bg-shiftfit" >ReactJS with typescript</h3>
+               <p>React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It allows developers to reuse the components built for the same functionality, reducing the development effort and ensuring flawless performance.</p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="tech-stack margin-b-3">
+               <div class="tech-box"><img loading="lazy" width="640" height="320" alt="nodejs_logo" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/nodejs_logo.webp"></div>
+               <h3 class="horizontal-line bg-shiftfit">Node.js</h3>
+               <p>Node.js is based on Google’s V8 JavaScript engine that compiles the code directly into the machine code, improving the speed and performance of the platform. In addition, it delivers better efficiency and overall developer productivity through code sharing and reusability.</p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="tech-stack margin-b-3">
+               <div class="tech-box"><img loading="lazy" width="640" height="320" alt="mongodb-icon" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/mongodb-icon.webp"></div>
+               <h3 class="horizontal-line bg-shiftfit">MongoDB</h3>
+               <p>Unlike traditional database systems that offer data management through tables and rows, MongoDB allows data management fields with the help of NoSQL. Resulting in no lag while handling more massive datasets.</p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="tech-stack margin-b-3">
+               <div class="tech-box"><img loading="lazy" width="640" height="320" alt="ionic" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/ionic.webp"></div>
+               <h3 class="horizontal-line bg-shiftfit">IONIC</h3>
+               <p>Ionic is an open-source UI framework for cross-platform, hybrid app development. The SDK offers a library of components and plugins with front-end building blocks, UI components, common app icons, etc. Also, ionic can build multiple apps from one codebase with native compatibility.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<section>
+   <div class="container">
+      <h2 class="heading-section margin-b-3 text-center">Similar Projects</h2>
+      <div class="owl-carousel owl-theme owl-demo2">
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-fuelit" target="_blank"
+               >
+               <img loading="lazy" width="640" height="320" alt="fuelit-portfolio" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/fuelit-portfolio.webp"/>
+               <p>An eCommerce app to facilitate on-demand fuel delivery</p>
+            </a>
+         </div>
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-zzabs" target="_blank">
+               <img loading="lazy" width="640" height="320" alt="portfolio-desc-zzabs" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/portfolio-desc-zzabs.webp"/>
+               <p>eCommerce marketplace app for Android and iOS users.</p>
+            </a>
+         </div>
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-tank-broker" target="_blank">
+               <img loading="lazy" width="640" height="320" alt="portfolio-desc-tank-broker" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/portfolio-desc-tank-broker.webp"/>
+               <p>eCommerce Marketplace for Buying and Selling Seafood and Pets</p>
+            </a>
+         </div>
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-post-heritage" target="_blank">
+               <img loading="lazy" width="640" height="320" alt="post-heritage-main" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/post-heritage-main.webp"/>
+               <p>An eCommerce platform to buy customized business cards and accessories</p>
+            </a>
+         </div>
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-greenryder" target="_blank">
+               <img loading="lazy" width="640" height="320" alt="greenryder-main" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/greenryder-main.webp"/>
+               <p>eCommerce platform for medicine and healthcare products</p>
+            </a>
+         </div>
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-goldleaf" target="_blank">
+               <img loading="lazy" width="640" height="320" alt="goldleaf-main" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/goldleaf-main.webp"/>
+               <p>eCommerce Platforms For Medical Products</p>
+            </a>
+         </div>
+         <div class="item">
+            <a href="https://www.biz4group.com/portfolio-accugenedx" target="_blank">
+               <img loading="lazy" width="640" height="320" alt="accugenedx-main" class="card-height" src="https://d1fxfakb0fcon3.cloudfront.net/images/portfolio/accugenedx-main.webp"/>
+               <p>An eCommerce platform to provide convenient health checkups at home</p>
+            </a>
+         </div>
+      </div>
+   </div>
+</section>
+<script>
+   $(document).ready(function() {
+    
+     $(".owl-demo2").owlCarousel({
+   	  autoplay: true,
+   	  autoplayTimeout: 2000,
+   	  autoplayHoverPause: true,
+         items : 4,
+         itemsDesktop : [1199,3],
+         itemsDesktopSmall : [979,3],
+   	  loop:true,
+         margin:10,
+         responsiveClass:true,
+         responsive:{
+           0:{
+               items:1,
+               nav:true
+           },
+           500:{
+               items:2,
+               nav:false,
+   			loop:false
+           },
+           768:{
+               items:3,
+               nav:true,
+               loop:false
+           },
+   		991:{
+               items:4,
+               nav:true,
+               loop:false
+           }
+   		
+       }
+     });
+    
+   });
+</script>
+<?php
+   require_once('includes/footer-service.php');
+   ?>

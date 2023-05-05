@@ -1,0 +1,1207 @@
+h2 {
+  font-size: 24px;
+  padding-bottom: 22px;
+  margin-bottom: 0px !important;
+}
+p {
+  font-family: Roboto-Light;
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+h3 {
+  font-size: 22px;
+  font-family: Roboto-Medium;
+  margin-bottom: 0px;
+  padding-bottom: 22px;
+}
+.footer {
+  h4 {
+    font-size: 24px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .copyright {
+    .privacy-policy {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+  .quickView {
+    p {
+      padding-top: 0px;
+    }
+  }
+  .services {
+    p {
+      padding-top: 0px;
+    }
+  }
+  padding-top: 10rem;
+}
+strong {
+  font-size: 20px;
+}
+.hero-section {
+  button {
+    margin: 0 !important;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+}
+.hero-section__wrapper {
+  padding-top: 100px;
+  position: relative;
+  img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  button {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    &:hover {
+      span {
+        display: none;
+      }
+      &::before {
+        content: "Talk To Us";
+      }
+    }
+  }
+}
+.left-title-text {
+  padding-top: 23%;
+  padding-bottom: 7%;
+  .title-text {
+    text-align: left;
+    font-family: Roboto-Medium;
+    color: #2a2b2a;
+    font-size: 24px;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+  .title-text-bold {
+    padding-bottom: 10px;
+    text-align: left;
+    color: #ff9630;
+    font-size: 3rem;
+    font-family: Roboto-Bold;
+    position: relative;
+  }
+  p {
+    padding: 22px 0;
+  }
+}
+.artwork {
+  background: url("../images/Artwork.png") no-repeat;
+  margin-top: 12%;
+  background-size: contain;
+  text-align: center;
+  width: 100%;
+  img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 80%;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+  }
+}
+.companies-that-trust-us {
+  padding: 2rem 0;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 0 -15px 25px #0000000d;
+  box-shadow: 0 -15px 25px #0000000d;
+}
+.company-name {
+  font-family: Roboto-Bold;
+  color: #ff9630;
+}
+.company-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  // padding: 2rem 0;
+  padding: 22px 0;
+  img {
+    max-width: 220px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+.company-image {
+  margin: 10px;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border: 2px solid #ff9630;
+    border-right: hidden;
+    border-bottom: hidden;
+    display: none;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff9630;
+    right: 0;
+    bottom: 0;
+    border-left: hidden;
+    border-top: hidden;
+    display: none;
+  }
+  &:hover {
+    &::after {
+      display: block;
+    }
+    &::before {
+      display: block;
+    }
+  }
+  img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: 170px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    &:hover {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+  }
+}
+.what-is-biz4commerce {
+  padding: 60px 0 0 0;
+  p {
+    padding: 22px 0;
+  }
+  h3 {
+    line-height: 1.2;
+    padding-bottom: 1rem;
+  }
+}
+.choose-your-way {
+  text-align: center;
+  h2 {
+    font-family: Roboto-Medium;
+  }
+  .biz-ent {
+    padding-bottom: 0px;
+  }
+  .biz-cloud {
+    padding-bottom: 0px;
+  }
+  .left {
+    padding: 3rem;
+    margin: 22px 0;
+    position: relative;
+    background-color: rgba(255, 244, 234, 0.5);
+    overflow: hidden;
+    p {
+      max-width: 380px;
+      margin: 22px auto;
+      font-family: Roboto-Light;
+    }
+    h3 {
+      font-family: Roboto-Bold;
+      font-size: 1.5rem !important;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50%;
+      height: 70%;
+      background: url("../images/company.png") no-repeat;
+      -webkit-transition: 1s all ease;
+      transition: 1s all ease;
+      opacity: 0.4;
+    }
+    &:hover {
+      &::after {
+        content: "";
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 1;
+      }
+    }
+  }
+  .right {
+    padding: 3rem;
+    margin: 22px 0;
+    position: relative;
+    background-color: rgba(255, 244, 234, 0.5);
+    overflow: hidden;
+    p {
+      max-width: 380px;
+      margin: 22px auto;
+      font-family: Roboto-Light;
+    }
+    h3 {
+      font-family: Roboto-Bold;
+      font-size: 1.5rem !important;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50%;
+      height: 70%;
+      background: url("../images/cloud.png") no-repeat;
+      -webkit-transition: 1s all ease;
+      transition: 1s all ease;
+      opacity: 0.4;
+    }
+    &:hover {
+      &::after {
+        content: "";
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 1;
+      }
+    }
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  button {
+    width: 200px;
+  }
+}
+.choose-your-way__wrapper {
+  margin: 3rem 0;
+  img {
+    width: 100%;
+  }
+}
+.choose-your-way__wrapper1 {
+  img {
+    width: 100%;
+  }
+}
+.who-we-are {
+  padding-top: 3rem;
+  position: relative;
+  .left-section {
+    img {
+      max-height: 300px;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      z-index: 10;
+      margin-top: 25px;
+      overflow: hidden;
+    }
+    margin-left: 15px;
+  }
+  .image-overlay {
+    background-color: #ff9630;
+    padding: 5rem 9rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: -10;
+  }
+  .right-section {
+    padding-top: 15px;
+    p {
+      padding: 22px 0;
+    }
+  }
+  .company-information {
+    img {
+      position: relative;
+      max-width: 100px;
+    }
+    .count {
+      font-family: Roboto-Medium;
+      font-size: 2.5rem;
+      position: absolute;
+      top: 20%;
+      left: 35%;
+    }
+    span {
+      font-family: Roboto-Medium;
+      font-size: 20px;
+      position: absolute;
+      top: 60%;
+      width: 250px;
+      left: 0;
+      &:hover {
+        -webkit-transform: translateY(-10%);
+        transform: translateY(-10%);
+      }
+    }
+    .image-wrapper {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .image-wrapper__geek {
+      height: 150px;
+      background: url("../images/geek.svg") no-repeat center;
+      &:hover {
+        background: url("../images/geek1.svg") no-repeat center;
+      }
+    }
+    .image-wrapper__print {
+      height: 150px;
+      background: url("../images/print.svg") no-repeat center;
+      &:hover {
+        background: url("../images/print1.svg") no-repeat center;
+      }
+    }
+    .image-wrapper__smile {
+      height: 150px;
+      background: url("../images/smile.svg") no-repeat center;
+      &:hover {
+        background: url("../images/smile1.svg") no-repeat center;
+      }
+    }
+    .image-wrapper__work {
+      height: 150px;
+      background: url("../images/work.svg") no-repeat center;
+      &:hover {
+        background: url("../images/work1.svg") no-repeat center;
+      }
+    }
+  }
+}
+.why-biz4commerce {
+  padding: 2rem 0;
+  background-color: #f8f8f8;
+  height: 100%;
+  border-top-right-radius: 9%;
+  h2 {
+    span {
+      color: #ff9630;
+    }
+  }
+  .img-wrapper {
+    background-color: #2a2b2a;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top: 25%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 10;
+    img {
+      position: absolute;
+      top: 23%;
+      left: 26%;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      width: 28px;
+    }
+  }
+  .left-section {
+    background-color: #ffff;
+    margin-left: 4.5%;
+    padding: 5% 60px;
+    margin-top: 45px;
+    min-height: 250px;
+  }
+  .left-section__contents {
+    min-height: 9rem;
+  }
+  .business-info {
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    &:hover {
+      -webkit-transform: translateY(-7%);
+      transform: translateY(-7%);
+    }
+  }
+}
+.get-free-consultation {
+  .hero-banner {
+    background: url("../images/banner21.jpg") no-repeat;
+    background-size: contain;
+    height: 450px;
+    max-height: 600px;
+    width: 100%;
+  }
+  .contact-us {
+    text-transform: capitalize;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 14% 0;
+    h3 {
+      padding-bottom: 10px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+  }
+  .button--outline {
+    margin: 22px 0;
+  }
+}
+.key-offerings {
+  background-color: #ffff;
+  .left-section {
+    background-color: #f8f8f8;
+    min-height: 265px;
+  }
+  .img-container {
+    background-color: #2a2b2a;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 50%;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: 5px solid #2a2b2a;
+    background-color: #ffff;
+    img {
+      position: absolute;
+      top: 23%;
+      left: 26%;
+      width: 35px;
+    }
+  }
+}
+.testomonials {
+  background: url("../images/map-bg.png") no-repeat;
+  padding: 6rem 0;
+  background-position: center;
+  text-align: center;
+  .carousel-indicators {
+    .active {
+      width: 20px;
+      height: 6px;
+      margin-top: 2px;
+      border-radius: 42%;
+    }
+    li {
+      color: black;
+      background-color: black;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+  .carousel-item {
+    margin-bottom: 5rem;
+  }
+  .carousel-inner {
+    h3 {
+      font-size: 1.3rem;
+      padding-top: 10px;
+    }
+    .testomonial-content {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 22px 0;
+      font-family: Roboto-Light;
+    }
+  }
+}
+.connect-with-us {
+  margin-bottom: -130px;
+  position: relative;
+  img {
+    position: absolute;
+    top: -82px;
+    width: 100px;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form-control {
+    border: 0;
+    border-bottom: 1px solid #2a2b2a !important;
+    resize: none;
+    border-radius: 0;
+  }
+  textarea {
+    border: 1px solid #2a2b2a !important;
+    margin-top: 30px;
+  }
+  button {
+    margin-top: 30px;
+    width: 160px;
+    &:hover {
+      i {
+        color: #ffff;
+      }
+    }
+  }
+  .row {
+    -webkit-box-shadow: 0 3px 15px #00000029;
+    box-shadow: 0 3px 15px #00000029;
+    border-radius: 10px;
+    .information {
+      background-color: #f8f8f8;
+      padding: 3rem 5rem;
+      h2 {
+        padding-bottom: 5px;
+      }
+    }
+    .form-section {
+      padding: 35px;
+      background-color: #ffff;
+    }
+  }
+  i {
+    color: #2a2b2a;
+    padding-right: 10px;
+    &:hover {
+      color: #ff9630;
+    }
+  }
+}
+.social-media-links {
+  i {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  h2 {
+    padding-bottom: 10px;
+  }
+  h3 {
+    padding-bottom: 10px;
+  }
+  .who-we-are {
+    .right-section {
+      p {
+        padding: 10px 0;
+      }
+    }
+  }
+  .why-biz4commerce {
+    .left-section {
+      text-align: center;
+      margin-left: 0;
+      padding: 60px 30px;
+      margin-bottom: 50px;
+      margin-top: 17px;
+    }
+    .last-left {
+      margin-bottom: 0px;
+    }
+    .img-wrapper {
+      top: -10px;
+      left: 45%;
+    }
+    h2 {
+      padding-bottom: 3rem;
+    }
+  }
+  .key-offerings {
+    .img-container {
+      left: 50%;
+      transform: translateX(-50%);
+      top: -15px;
+    }
+  }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .left-title-text {
+    text-align: center;
+    .title-text {
+      font-size: 28px;
+    }
+    .title-text-bold {
+      font-size: 2.5rem;
+      text-align: center;
+      &:after {
+        content: "";
+        display: none;
+      }
+    }
+  }
+  .choose-your-way {
+    .left {
+      margin: 1rem 0;
+    }
+    .right {
+      margin: 1rem 0;
+    }
+  }
+  .connect-with-us {
+    .row {
+      .information {
+        padding: 2rem;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .left-title-text {
+    .title-text {
+      max-width: 300px;
+    }
+  }
+}
+@media (max-width: 599px) {
+  .left-title-text {
+    .title-text {
+      text-align: center;
+    }
+    .title-text-bold {
+      text-align: center;
+      font-size: 2.5rem;
+      &:after {
+        content: "";
+        display: none;
+      }
+    }
+  }
+  .company-image {
+    img {
+      max-width: 100%;
+    }
+  }
+  .choose-your-way {
+    .left {
+      margin: 1rem 0;
+    }
+    .right {
+      margin: 1rem 0;
+    }
+  }
+  .who-we-are {
+    padding-top: 1rem;
+    .image-overlay {
+      top: 8px;
+      left: 14px;
+    }
+    .company-information {
+      .count {
+        left: 39%;
+      }
+      span {
+        left: 24%;
+      }
+    }
+  }
+  .why-biz4commerce {
+    h2 {
+      margin: 2rem 0 !important;
+      text-align: center;
+      &::after {
+        content: "";
+        left: 60px !important;
+      }
+      &::before {
+        content: "";
+        left: 70px !important;
+      }
+    }
+    .img-wrapper {
+      top: 20px;
+      left: 43%;
+    }
+    .left-section {
+      padding-top: 20%;
+      text-align: center;
+      margin-top: 15%;
+    }
+  }
+  .key-offerings {
+    .img-container {
+      left: 40%;
+      top: 17%;
+    }
+  }
+  .connect-with-us {
+    .row {
+      .information {
+        text-align: center;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .left-title-text {
+    .title-text {
+      text-align: center;
+    }
+    padding: 170px 0 70px 0;
+  }
+}
+@media (max-width: 1199px) {
+  .left-title-text {
+    .title-text-bold {
+      padding-bottom: 0px;
+    }
+    padding: 150px 20px 50px 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 999px) {
+  .artwork {
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .artwork {
+    img {
+      display: none;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .artwork {
+    img {
+      display: none;
+    }
+    background: none;
+  }
+  .choose-your-way {
+    .right {
+      &::after {
+        bottom: -144px;
+        right: -76px;
+        width: 100%;
+        height: 100%;
+      }
+      padding: 2rem;
+    }
+    .left {
+      padding: 2rem;
+    }
+  }
+  .get-free-consultation {
+    .hero-banner {
+      background: none;
+      height: 175px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  .why-biz4commerce {
+    .left-section {
+      margin-left: 0;
+      padding: 50px 30px;
+    }
+    border-top-right-radius: 0;
+  }
+  .testomonials {
+    background: none;
+    padding: 0 0 70px 0 !important;
+    .carousel-inner {
+      .testomonial-content {
+        font-size: 18px;
+      }
+    }
+  }
+  .hero-section__wrapper {
+    padding-top: 143px;
+    button {
+      bottom: 5px;
+    }
+  }
+  .choose-your-way__wrapper1 {
+    order: 1;
+  }
+  .cloud-div {
+    order: 2;
+  }
+  .key-offerings {
+    margin: 0px !important;
+    h2 {
+      padding: 2rem 0;
+    }
+  }
+  .connect-with-us {
+    .row {
+      .form-section {
+        padding: 15px;
+      }
+      .information {
+        padding: 3rem;
+      }
+    }
+  }
+  .who-we-are {
+    .company-information {
+      span {
+        left: 57px;
+      }
+    }
+  }
+}
+@media (min-width: 599px) and (max-width: 899px) {
+  .who-we-are {
+    .company-information {
+      .count {
+        left: 42%;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .who-we-are {
+    .company-information {
+      span {
+        left: 18px;
+      }
+    }
+    .left-image-section {
+      padding-top: 30px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .get-free-consultation {
+    .hero-banner {
+      background-position: center;
+      height: 275px;
+      max-height: 600px;
+      width: 100%;
+      position: relative;
+    }
+    .contact-us {
+      text-align: center;
+      left: 0;
+    }
+  }
+  .who-we-are {
+    .company-information {
+      span {
+        left: 50% !important;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .get-free-consultation {
+    .hero-banner {
+      background-size: cover;
+    }
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .get-free-consultation {
+    .contact-us {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .connect-with-us {
+    .row {
+      .information {
+        padding: 3rem;
+      }
+    }
+  }
+  .who-we-are {
+    .left-section {
+      img {
+        margin-top: 75px;
+      }
+    }
+    .image-overlay {
+      top: 50px;
+    }
+  }
+  .why-biz4commerce {
+    .left-section {
+      min-height: 300px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .key-offerings {
+    p {
+      padding-left: 26px !important;
+    }
+    h3 {
+      padding-left: 26px !important;
+    }
+    .left-section {
+      min-height: 248px !important;
+    }
+  }
+  .why-biz4commerce {
+    .left-section {
+      min-height: 268px;
+    }
+    p {
+      padding-left: 16px;
+    }
+    h3 {
+      padding-left: 16px;
+    }
+    .img-wrapper {
+      left: 16px;
+    }
+  }
+  .choose-your-way {
+    .right {
+      &::after {
+        bottom: -72px;
+        right: -106px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .get-free-consultation {
+    .hero-banner {
+      background-position: right !important;
+    }
+  }
+  .artwork {
+    display: none !important;
+  }
+  .left-title-text {
+    text-align: center;
+  }
+  .title-text-bold {
+    text-align: center !important;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .who-we-are {
+    .image-overlay {
+      top: 0px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .who-we-are {
+    .company-information {
+      span {
+        left: 56px;
+      }
+    }
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .artwork {
+    display: none;
+  }
+  .left-title-text {
+    text-align: center !important;
+  }
+  .title-text {
+    text-align: center !important;
+  }
+  .title-text-bold {
+    text-align: center !important;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+}
+@media (min-width: 1201px) {
+  .choose-your-way {
+    .right {
+      overflow: hidden;
+      &::after {
+        content: "";
+        bottom: -72px;
+        right: -222px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .left {
+      overflow: hidden;
+    }
+  }
+}
+@media (max-width: 767px) and (min-width: 481px) {
+  .choose-your-way {
+    .right {
+      &::after {
+        bottom: -73px;
+        right: -164px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .who-we-are {
+    .company-information {
+      span {
+        left: 136px;
+      }
+    }
+    .image-overlay {
+      top: 0px;
+    }
+  }
+  .hero-section__wrapper {
+    button {
+      bottom: 24px;
+    }
+    padding-top: 143px;
+  }
+  .get-free-consultation {
+    .hero-banner {
+      height: 250px;
+    }
+    .contact-us {
+      padding: 40px 0 0 0;
+    }
+  }
+  .key-offerings {
+    margin: 0 !important;
+    .left-section {
+      min-height: 0px;
+    }
+  }
+  .testomonials {
+    padding: 10px;
+  }
+  .artwork {
+    img {
+      display: none;
+    }
+  }
+}
+@media (max-width: 280px) {
+  .choose-your-way {
+    .left {
+      padding: 10px 0;
+    }
+    .right {
+      padding: 10px 0;
+    }
+  }
+  .left-title-text {
+    .title-text {
+      font-size: 1.2rem;
+    }
+    .title-text-bold {
+      font-size: 1.5rem;
+    }
+  }
+  .col-md-6 {
+    padding: 5px;
+  }
+  .who-we-are {
+    .company-information {
+      span {
+        left: 6%;
+      }
+    }
+    .image-overlay {
+      display: none;
+    }
+  }
+  .why-biz4commerce {
+    border-top-right-radius: 0;
+  }
+  .get-free-consultation {
+    .hero-banner {
+      background: none !important;
+      height: 250px;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    .contact-us {
+      padding-top: 13%;
+    }
+  }
+  .button--outline {
+    width: 270px;
+  }
+  .testomonials {
+    padding: 0rem 0;
+  }
+  .connect-with-us {
+    .row {
+      .form-section {
+        padding: 20px 0;
+      }
+      .information {
+        padding: 25px 0;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .who-we-are {
+    .company-information {
+      span {
+        left: 11%;
+      }
+    }
+    .image-overlay {
+      padding: 5rem 7rem;
+    }
+  }
+  .get-free-consultation {
+    .contact-us {
+      padding: 75px 10px;
+    }
+  }
+  .button--outline {
+    width: 275px;
+  }
+  .key-offerings {
+    h2 {
+      margin-top: 5rem !important;
+    }
+    .img-container {
+      top: 13%;
+    }
+  }
+  .choose-your-way {
+    .left {
+      padding: 2rem;
+    }
+    .right {
+      padding: 2rem;
+    }
+  }
+}

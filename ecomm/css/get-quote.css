@@ -1,0 +1,1074 @@
+.fixed-top {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.footer {
+  padding-top: 2rem;
+}
+
+.get-quote-page .custom-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.get-quote-page .custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.get-quote-page .custom-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+
+.get-quote-page .custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 9px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.get-quote-page .custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.get-quote-page .theme-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .theme-button.grey-button {
+  background-color: #c7c7c7;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.get-quote-page .theme-button.grey-button:hover {
+  background-color: #ff9630;
+}
+
+.get-quote-page .theme-button.white-button {
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.get-quote-page .theme-button.white-button:hover {
+  background-color: #ff9630;
+  color: #fff;
+}
+
+.get-quote-page .getquote-banner-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+  position: relative;
+  background-position: top left;
+}
+
+.get-quote-page .getquote-banner-section:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #f984139e), color-stop(50%, transparent), color-stop(45%, transparent));
+  background-image: linear-gradient(to right, #f984139e 5%, transparent 50%, transparent 45%);
+}
+
+.get-quote-page .getquote-banner-section .banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-heading {
+  margin-bottom: 25px;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-heading h3 {
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px !important;
+  font-family: "Segoe UI Regular";
+  position: relative;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-heading h3 span {
+  position: relative;
+  z-index: 1;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-heading h3:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 94px;
+  width: 180px;
+  height: 17px;
+  background-color: #ff9630;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-brif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-brif .brif-img {
+  margin-right: 15px;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-brif .brif-img img {
+  width: 80px;
+}
+
+.get-quote-page .getquote-banner-section .banner-content .banner-brif .brif-title h2 {
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 36px !important;
+  line-height: 40px;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .packages-preview-section {
+  background-color: #fafafa;
+  padding: 40px 0px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-heading h3 {
+  color: #ff9630;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Bold";
+  line-height: 18px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box {
+  border: 1px solid #eeeeee;
+  margin-bottom: 15px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content {
+  padding: 15px 100px 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-name h2 {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 28px !important;
+  line-height: 32px;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-name span {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Bold";
+  display: block;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-price .price {
+  margin-bottom: 10px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-price .price span {
+  color: #000000;
+  font-size: 28px !important;
+  line-height: 32px;
+  font-family: "Segoe UI Bold";
+  display: block;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .collapse-opener {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 80px;
+  background-color: #ff9630;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .collapse-opener.collapsed {
+  background-color: #c7c7c7;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .collapse-opener.collapsed a {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .collapse-opener a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body {
+  padding: 15px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-included-title {
+  margin-bottom: 15px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-included-title h3 {
+  color: #a65200;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-included-title h3 i {
+  margin-left: 10px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail {
+  border-bottom: 1px dashed #707070;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail:nth-last-child(1) {
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-name {
+  margin-bottom: 15px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-name h2 {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-list ul {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-list ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 10px;
+  width: 20%;
+  padding-right: 10px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-list ul li i {
+  color: #000;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-list ul li span {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Regular";
+  display: inline-block;
+}
+
+.get-quote-page .or-separator {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.get-quote-page .or-separator span {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px !important;
+  font-family: "Segoe UI Bold";
+  display: block;
+}
+
+.get-quote-page .steps-info {
+  position: relative;
+}
+
+.get-quote-page .steps-info .steps-img {
+  margin-left: -15px;
+}
+
+.get-quote-page .steps-info .steps-img img {
+  width: 100%;
+}
+
+.get-quote-page .steps-info .steps-detail .item {
+  margin-bottom: 15px;
+}
+
+.get-quote-page .steps-info .steps-detail .item:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.get-quote-page .steps-info .steps-detail .item h3 {
+  color: #000;
+  margin: 0px 0px 10px !important;
+  padding: 0px;
+  font-size: 30px !important;
+  font-family: "Segoe UI Regular";
+  position: relative;
+}
+
+.get-quote-page .steps-info .steps-detail .item p {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Regular";
+  position: relative;
+}
+
+.get-quote-page .section-buy-features {
+  padding: 40px 0px;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box {
+  border: 1px solid #eeeeee;
+  margin-bottom: 15px;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content {
+  padding: 30px 80px 30px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content .package-name h2 {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 22px !important;
+  line-height: 26px;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content .select-all-btn {
+  position: relative;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content .select-all-btn input {
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content .select-all-btn input:hover + .theme-button {
+  background-color: #ff9630;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .collapse-opener {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60px;
+  background-color: #ff9630;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .collapse-opener.collapsed {
+  background-color: #c7c7c7;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .collapse-opener.collapsed a {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .collapse-opener a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body {
+  padding: 15px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail {
+  border-bottom: 1px dashed #707070;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail:nth-last-child(1) {
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul li {
+  list-style: none;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul li .features-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-right: 10px;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul li .features-item .features-checkbox .custom-checkbox .form-check-input:disabled + .checkmark {
+  border-color: #cecece;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul li .features-item .features-content h3 {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Bold";
+  display: block;
+  margin-bottom: 2px !important;
+}
+
+.get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul li .features-item .features-content p {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px !important;
+  font-family: "Segoe UI Regular";
+  display: block;
+}
+
+.get-quote-page .section-buy-features .offer-section {
+  margin-bottom: 30px;
+}
+
+.get-quote-page .section-buy-features .offer-section .offer-img {
+  margin-bottom: 15px;
+}
+
+.get-quote-page .section-buy-features .offer-section .offer-img a img {
+  width: 100%;
+}
+
+.get-quote-page .estimation-box {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner {
+  -webkit-box-shadow: 0px 0px 15px #00000033;
+          box-shadow: 0px 0px 15px #00000033;
+  background-color: #000000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-heading {
+  background-color: #ff9630;
+  border-radius: 0px 0px 200px 0px;
+  padding: 25px 15px;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-heading h2 {
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 28px !important;
+  line-height: 32px;
+  font-family: "Segoe UI Bold";
+  margin-bottom: 5px !important;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-heading span {
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Regular";
+  display: block;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 15px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn .price {
+  margin-right: 20px;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn .price .price-input {
+  color: #fff;
+  font-size: 28px !important;
+  line-height: 32px;
+  font-family: "Segoe UI Bold";
+  background-color: transparent;
+  border: 0;
+  text-align: right;
+  outline: none;
+  width: 100%;
+}
+
+.get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn .quote-btn {
+  white-space: nowrap;
+}
+
+.get-quote-page .section-whybiz {
+  padding: 150px 0px 100px;
+  background-size: cover;
+  background-position: top left;
+  margin-top: -80px;
+}
+
+.get-quote-page .section-whybiz .whybiz-card {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 35px #00000029;
+          box-shadow: 0px 0px 35px #00000029;
+  padding: 50px;
+}
+
+.get-quote-page .section-whybiz .whybiz-card .card-heading {
+  margin-bottom: 20px;
+}
+
+.get-quote-page .section-whybiz .whybiz-card .card-heading h2 {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px !important;
+  line-height: 30px;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .section-whybiz .whybiz-card .whybiz-list ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.get-quote-page .section-whybiz .whybiz-card .whybiz-list ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.get-quote-page .section-whybiz .whybiz-card .whybiz-list ul li i {
+  color: #000;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.get-quote-page .section-whybiz .whybiz-card .whybiz-list ul li span {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Regular";
+  display: inline-block;
+}
+
+.get-quote-page .section-benefits {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 35px #00000029;
+          box-shadow: 0px 0px 35px #00000029;
+  padding: 50px 0px;
+}
+
+.get-quote-page .section-benefits .heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.get-quote-page .section-benefits .heading h2 {
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px !important;
+  line-height: 30px;
+  font-family: "Segoe UI Bold";
+}
+
+.get-quote-page .section-benefits .benefits-list ul {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.get-quote-page .section-benefits .benefits-list ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 10px;
+  width: 33%;
+  padding-right: 10px;
+}
+
+.get-quote-page .section-benefits .benefits-list ul li i {
+  color: #000;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.get-quote-page .section-benefits .benefits-list ul li span {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px !important;
+  font-family: "Segoe UI Regular";
+  display: inline-block;
+}
+
+.get-quote-page .section-technical {
+  position: relative;
+  background-size: cover;
+  background-position: top left;
+}
+
+.get-quote-page .section-technical:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000e6), to(transparent));
+  background-image: linear-gradient(to right, #000000e6, transparent);
+}
+
+.get-quote-page .section-technical .technical-content {
+  padding: 70px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.get-quote-page .section-technical .technical-content span {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 14px !important;
+  line-height: 20px;
+  font-family: "Segoe UI Regular";
+  display: block;
+}
+
+.get-quote-page .section-technical .technical-content h2 {
+  color: #fff;
+  font-family: "Segoe UI Bold";
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px !important;
+  line-height: 34px;
+  margin-bottom: 20px !important;
+}
+
+.get-quote-page .section-technical .technical-content .theme-button {
+  border-radius: 100px;
+  min-width: 200px;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content {
+  border: 0px;
+  border-radius: 0px;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-header {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 0px;
+  border: 0px;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-header .modal-closer {
+  font-size: 24px;
+  color: #969494;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-header .modal-closer:hover {
+  color: #000;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-body {
+  padding-top: 0px;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-body .form-group {
+  margin-bottom: 20px;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-body .form-group textarea {
+  border: 1px solid #d0d0d0 !important;
+  padding-left: 10px !important;
+  resize: none;
+}
+
+.get-quote-page .quote-modal .modal-dialog .modal-content .modal-body .form-group .form-control {
+  border: 0px;
+  border-bottom: 1px solid #d0d0d0;
+  border-radius: 0;
+  padding-left: 0px;
+  font-size: 14px;
+  outline: none;
+  font-family: "Segoe UI Regular";
+}
+
+@media only screen and (max-width: 767px) {
+  .get-quote-page .getquote-banner-section {
+    height: auto;
+  }
+  .get-quote-page .getquote-banner-section .banner-content .banner-heading {
+    margin-bottom: 15px;
+  }
+  .get-quote-page .getquote-banner-section .banner-content .banner-heading h3 {
+    font-size: 22px !important;
+  }
+  .get-quote-page .getquote-banner-section .banner-content .banner-heading h3:after {
+    top: 14px;
+    left: 69px;
+    width: 131px;
+    height: 15px;
+  }
+  .get-quote-page .getquote-banner-section .banner-content .banner-brif .brif-img img {
+    width: 50px;
+  }
+  .get-quote-page .getquote-banner-section .banner-content .banner-brif .brif-title h2 {
+    font-size: 30px !important;
+    line-height: 34px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content {
+    padding: 15px 65px 15px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-name {
+    margin-bottom: 10px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-name h2 {
+    font-size: 22px !important;
+    line-height: 26px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-name span {
+    font-size: 12px !important;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .box-head-content .package-price .price span {
+    font-size: 22px !important;
+    line-height: 26px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-head .collapse-opener {
+    width: 50px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-included-title {
+    margin-bottom: 10px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-list ul li {
+    width: 100%;
+  }
+  .get-quote-page .steps-info .steps-img {
+    margin-bottom: 30px;
+  }
+  .get-quote-page .steps-info .steps-detail .item h3 {
+    font-size: 24px !important;
+  }
+  .get-quote-page .steps-info .steps-detail .item p {
+    font-size: 14px !important;
+  }
+  .get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content {
+    padding: 30px 65px 30px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .box-head-content .package-name {
+    margin-bottom: 10px;
+  }
+  .get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-head .collapse-opener {
+    width: 50px;
+  }
+  .get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body {
+    max-height: 300px;
+  }
+  .get-quote-page .section-buy-features .buy-features-list .buy-features-box .box-body .features-detail .features-list ul li {
+    width: 100%;
+  }
+  .get-quote-page .estimation-box .estimation-box-inner .estimation-heading {
+    padding: 15px 15px;
+  }
+  .get-quote-page .estimation-box .estimation-box-inner .estimation-heading h2 {
+    font-size: 22px !important;
+    line-height: 26px;
+    margin-bottom: 0px !important;
+  }
+  .get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn {
+    padding: 15px 15px;
+  }
+  .get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn .price {
+    margin-right: 10px;
+  }
+  .get-quote-page .estimation-box .estimation-box-inner .estimation-pricebtn .price .price-input {
+    font-size: 22px !important;
+    line-height: 26px;
+  }
+  .get-quote-page .section-whybiz {
+    padding: 90px 0px 40px;
+  }
+  .get-quote-page .section-whybiz .whybiz-card {
+    padding: 25px;
+  }
+  .get-quote-page .section-whybiz .whybiz-card .card-heading h2 {
+    font-size: 22px !important;
+    line-height: 26px;
+  }
+  .get-quote-page .section-benefits {
+    padding: 40px 0px;
+  }
+  .get-quote-page .section-benefits .heading h2 {
+    font-size: 22px !important;
+    line-height: 26px;
+  }
+  .get-quote-page .section-benefits .benefits-list ul li {
+    width: 100%;
+  }
+  .get-quote-page .section-technical .technical-content {
+    padding: 40px 0px;
+  }
+  .get-quote-page .section-technical .technical-content h2 {
+    font-size: 22px !important;
+    line-height: 26px;
+  }
+  .get-quote-page .section-technical .technical-content .theme-button {
+    border-radius: 100px;
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  .get-quote-page .getquote-banner-section {
+    height: 350px;
+  }
+  .get-quote-page .packages-preview-section .packages-preview-list .packages-preview-box .box-body .features-detail .features-list ul li {
+    width: 33%;
+  }
+  .get-quote-page .section-buy-features .buy-features-list {
+    margin-bottom: 30px;
+  }
+  .get-quote-page .section-whybiz {
+    background-position: top center;
+  }
+}
+/*# sourceMappingURL=get-quote.css.map */

@@ -1,0 +1,1958 @@
+.online-job-portal-head {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head {
+    padding-top: 90px;
+  }
+}
+
+.online-job-portal-head h1, .online-job-portal-head h2, .online-job-portal-head h3, .online-job-portal-head h4, .online-job-portal-head h5, .online-job-portal-head h6 {
+  font-family: 'Playfair Display';
+}
+
+.online-job-portal-head p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+
+.online-job-portal-head .justfy-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .justfy-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.online-job-portal-head .disable-link {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+.online-job-portal-head .opicity-0 {
+  opacity: 0;
+}
+
+.online-job-portal-head .p-0 {
+  padding: 0 !important;
+}
+
+.online-job-portal-head .justify-content-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .justify-content-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.online-job-portal-head a {
+  padding: 15px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Poppins";
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head a {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  .online-job-portal-head a img {
+    width: 15px;
+    height: 15px;
+    min-height: 15px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head a {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  .online-job-portal-head a img {
+    width: 15px;
+    height: 15px;
+    min-height: 15px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+.online-job-portal-head .grey-btn {
+  background: #C39167;
+  color: #fff;
+}
+
+.online-job-portal-head .grey-btn img {
+  width:22px;
+}
+
+.online-job-portal-head .grey-btn:hover {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.online-job-portal-head .comman-heading {
+  text-align: center;
+}
+
+.online-job-portal-head .comman-heading h2 {
+  color: #C39167;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.online-job-portal-head .comman-heading h2 span {
+  display: block;
+}
+
+.online-job-portal-head .comman-heading p {
+  font-size: 19px;
+  color: #1A0A0B;
+  font-weight: 500;
+  padding: 10px 0px;
+  font-family: 'Dosis';
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .comman-heading h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .online-job-portal-head .comman-heading p {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .comman-heading h2 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .online-job-portal-head .comman-heading p {
+    font-size: 16px;
+    padding: 5px 0px;
+  }
+}
+
+.online-job-portal-head .online-job-main {
+  
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 140px 0px;
+  position: relative;
+}
+
+.online-job-portal-head .online-job-main .job-inner .mainbanner-heading h1 {
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 120%;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.online-job-portal-head .online-job-main .job-inner .mainbanner-heading h1 span {
+  color: #EEA404;
+  display: block;
+}
+
+.online-job-portal-head .online-job-main .job-inner .mainbanner-heading p {
+  font-size: 22px;
+  color: #fff;
+  line-height: 158%;
+  padding: 10px 15px 10px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .online-job-main {
+    background-position: left;
+    padding: 65px 0px;
+  }
+  .online-job-portal-head .online-job-main .job-inner .mainbanner-heading {
+    text-align: center;
+  }
+  .online-job-portal-head .online-job-main .job-inner .mainbanner-heading h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+  }
+  .online-job-portal-head .online-job-main .job-inner .mainbanner-heading h1 span {
+    display: inline;
+  }
+  .online-job-portal-head .online-job-main .job-inner .mainbanner-heading p {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .online-job-main {
+    padding: 120px 0px;
+  }
+  .online-job-portal-head .online-job-main .job-inner .mainbanner-heading h1 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .online-job-main {
+    background-position: left;
+    text-align: center;
+    padding: 200px 20px;
+  }
+  .online-job-portal-head .online-job-main .mainbanner-heading h1 {
+    font-size: 42px;
+  }
+  .online-job-portal-head .online-job-main .mainbanner-heading p {
+    font-size: 18px;
+    padding: 10px 15px 10px 10px;
+  }
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 20px 20px 0;
+  margin-bottom: 30px;
+  min-height: 260px;
+}
+
+@media screen and (max-width: 1192px) and (min-width: 992px) {
+  .online-job-portal-head .why-choose-sec .offering-inner .offer-card {
+    min-height: 300px;
+  }
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card p {
+  padding: 15px 0px 0px;
+  font-size: 18px;
+  color: #5F5F5F;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid 1px #5E5E5E;
+  padding-bottom: 15px;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head .icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  background: #5E5E5E;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head .icon-box svg {
+  fill: #fff;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head .icon-box svg:hover {
+  fill: #FB6739;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head h4 {
+  font-size: 20px;
+  color: #0A0A0A;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card:hover {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  border: solid 1px transparent;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card:hover p {
+  color: #1A1A1A;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card:hover .card-head {
+  border-color: #1A1A1A;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .offer-card:hover .card-head h4 {
+  color: #1A1A1A;
+}
+
+.online-job-portal-head .why-choose-sec .offering-inner .seemore {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .why-choose-sec {
+    padding: 30px 0px 30px 0px;
+  }
+  .online-job-portal-head .why-choose-sec .offering-inner .offer-card {
+    margin-bottom: 15px;
+    padding: 10px 20px 0px;
+    min-height: auto;
+  }
+  .online-job-portal-head .why-choose-sec .offering-inner .offer-card p {
+    padding: 12px 0px 0;
+    font-size: 14px;
+  }
+  .online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: solid 1px #5E5E5E;
+    padding-bottom: 10px;
+  }
+  .online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head .icon-box {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .online-job-portal-head .why-choose-sec .offering-inner .offer-card .card-head h4 {
+    font-size: 16px;
+    color: #0A0A0A;
+  }
+}
+
+.online-job-portal-head .unique-services {
+  padding: 60px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner {
+  padding-bottom: 60px;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .services-card {
+  padding: 15px 15px 0px 15px;
+  padding-bottom: 15px;
+  border: solid 1px #1A1A1A;
+  margin-bottom: 30px;
+  background: #fff;
+  min-height: 270px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .unique-services .unique-services-inner .services-card {
+    min-height: 295px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .unique-services .unique-services-inner .services-card {
+    min-height: 200px;
+  }
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .services-card h4 {
+  font-size: 20px;
+  color: #0A0A0A;
+  margin: 0;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #1A1A1A;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .services-card p {
+  padding: 15px 0px 0px;
+  font-size: 16px;
+  color: #1A1A1A;
+  font-weight: 500;
+  margin: 0;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .services-card:hover {
+  background: #C39167;
+  border: solid 1px #C39167;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .services-card:hover h4 {
+  color: #FFFFFF;
+  border-bottom: solid 1px #FFFFFF;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .services-card:hover p {
+  color: #FFFFFF;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1A1A1A;
+  letter-spacing: 1px;
+  line-height: 54px;
+  position: relative;
+  z-index: -1;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 15px 0;
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3::after {
+  content: "";
+  background: #FFD700;
+  width: 100vw;
+  right: 265px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3 {
+    font-size: 32px;
+    line-height: 34px;
+    padding: 10px 200px 10px 10px;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3::after {
+    right: 490px;
+  }
+}
+
+.online-job-portal-head .unique-services .unique-services-inner .unique-services-right .roundlord {
+  margin-right: -200px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-right .roundlord {
+    display: none;
+  }
+}
+
+.online-job-portal-head .unique-services .free-trail-part {
+  background: #191919;
+}
+
+.online-job-portal-head .unique-services .free-trail-part .free-contact img {
+  margin-top: -60px;
+}
+
+.online-job-portal-head .unique-services .free-trail-part .free-right {
+  padding: 35px 0;
+}
+
+.online-job-portal-head .unique-services .free-trail-part .free-right .grey-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .unique-services .free-trail-part .free-right {
+    padding: 10px 0;
+  }
+}
+
+.online-job-portal-head .unique-services .free-trail-part .free-right h4 {
+  font-size: 29px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .unique-services .free-trail-part .free-right h4 {
+    font-size: 25px;
+  }
+}
+
+.online-job-portal-head .unique-services .free-trail-part .free-right p {
+  margin: 25px 0px;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .unique-services .free-trail-part .free-right {
+    padding: 10px 0;
+  }
+  .online-job-portal-head .unique-services .free-trail-part .free-right h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .online-job-portal-head .unique-services .free-trail-part .free-right p {
+    margin: 18px 0px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .unique-services {
+    padding: 40px 0px 0px;
+    background-position: center;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner {
+    padding-bottom: 20px;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .services-card {
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 15px;
+    min-height: auto;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .services-card h4 {
+    font-size: 16px;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .services-card p {
+    font-size: 15px;
+    padding: 10px 0px 10px;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-left h3::after {
+    right: 154px;
+  }
+  .online-job-portal-head .unique-services .unique-services-inner .unique-services-right .roundlord {
+    display: none;
+  }
+  .online-job-portal-head .unique-services .free-trail-part {
+    background: #191919;
+  }
+  .online-job-portal-head .unique-services .free-trail-part .free-contact img {
+    margin-top: 0px;
+  }
+  .online-job-portal-head .unique-services .free-trail-part .free-right {
+    text-align: center;
+    padding: 10px 10px 25px 10px;
+  }
+  .online-job-portal-head .unique-services .free-trail-part .free-right h4 {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .online-job-portal-head .unique-services .free-trail-part .free-right p {
+    margin: 14px 0px;
+    font-size: 14px;
+  }
+}
+
+.online-job-portal-head .success-story-section {
+  padding: 60px 0px 0px !important;
+  position: relative;
+}
+
+.online-job-portal-head .success-story-section .success-story-main {
+  padding-top: 40px;
+  position: relative;
+}
+
+.online-job-portal-head .success-story-section .success-story-main img {
+  width: 340px;
+  height: 414px;
+  position: absolute;
+  top: -190px;
+  left: -180px;
+  z-index: 100;
+}
+
+.online-job-portal-head .success-story-section .our-best-works .success-story-para {
+  color: #1A0A0B;
+  text-align: center;
+  font-size: 19px;
+  padding: 0px 0px 30px;
+  font-weight: 400;
+}
+
+.online-job-portal-head .success-story-section .success-card1 {
+  background: radial-gradient(100% 100% at 71.4% 44.87%, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+.online-job-portal-head .success-story-section .success-card {
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.online-job-portal-head .success-story-section .success-card .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left {
+  padding: 0px 0px 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief p {
+    font-size: 18px;
+  }
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .about-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-logo {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 10px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-logo img {
+  width: 90px;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 90px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-logo:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 70px;
+  width: 2px;
+  top: 10px;
+  right: 0px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief {
+  min-height: 200px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card {
+  background-color: #FF9934;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 525px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading {
+  margin-bottom: 15px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading h4 {
+  color: #1A1A1A;
+  font-size: 18px;
+  margin: 0px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border {
+  width: 60px;
+  display: block;
+  background-color: #1A1A1A;
+  border-radius: 30px;
+  height: 3px;
+  position: relative;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #FF9934;
+  bottom: 0px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span:nth-child(1) {
+  right: 3px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span:nth-child(2) {
+  right: 12px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span:nth-child(3) {
+  right: 24px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief p {
+  color: #1A1A1A;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0px 0px 15px;
+  font-weight: 400;
+  max-height: 100px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief p::-webkit-scrollbar {
+  width: 5px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief p::-webkit-scrollbar-track {
+  background: #1A1A1A;
+  border-radius: 10px;
+  width: 5px;
+  height: 5px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief p::-webkit-scrollbar-thumb {
+  background: #fff;
+  width: 5px;
+  border-radius: 30px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-img {
+  margin-right: 10px;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-img img {
+  width: 55px;
+  height: 55px;
+  min-width: 55px;
+  border-radius: 100%;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h5 {
+  color: #1A1A1A;
+  font-size: 19px;
+  line-height: 22px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h6 {
+  color: #1A1A1A;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name span {
+  font-weight: 700;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .visit-button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #1A1A1A;
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .visit-button a:hover {
+  background: #fff;
+  color: #1A1A1A;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .visit-button a {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+.online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .visit-button .theme-buttoncard {
+  border-radius: 9px;
+  background: linear-gradient(135deg, #AE9DFD 0%, #8E77F9 100%) !important;
+  font-size: 12px;
+  display: inline-block;
+  padding: 15px 19px;
+  font-family: "Poppins";
+}
+
+.online-job-portal-head .success-story-section .success-card .project-image img {
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.online-job-portal-head .success-story-section .success-card .auxpair-img {
+  margin-bottom: 0px !important;
+  text-align: center;
+}
+
+.online-job-portal-head .success-story-section .success-card .auxpair-img img {
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .success-story-section .success-card .success-card .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card .success-card-left {
+    min-height: auto;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card .success-card-left .about-project {
+    margin-bottom: 30px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card .success-card-left .client-review-card {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card .project-image img {
+    max-width: 400px;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .success-story-section {
+    padding: 40px 0px 0px !important;
+  }
+  .online-job-portal-head .success-story-section .our-best-works .success-story-para {
+    color: #1A0A0B;
+    font-size: 15px;
+    padding: 0px 0px 20px;
+  }
+  .online-job-portal-head .success-story-section .success-card {
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding-top: 0;
+  }
+  .online-job-portal-head .success-story-section .success-card .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left {
+    padding: 10px;
+    min-height: 615px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-logo {
+    position: static;
+    padding-right: 10px;
+    margin: auto;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-logo img {
+    width: 90px;
+    height: 90px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    min-width: 90px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-logo:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 70px;
+    width: 2px;
+    top: 10px;
+    right: 0px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief {
+    min-height: auto;
+    text-align: center;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief p {
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 10px 10px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief::-webkit-scrollbar {
+    width: 5px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief::-webkit-scrollbar-track {
+    background: #1A1A1A;
+    border-radius: 10px;
+    width: 5px;
+    height: 5px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .about-project .project-brief::-webkit-scrollbar-thumb {
+    background: #fff;
+    width: 5px;
+    border-radius: 30px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 525px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading {
+    margin-bottom: 15px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-heading h4 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief {
+    border-bottom: 1px solid #FFF;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .review-brief p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-img {
+    margin-right: 10px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-img img {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h5 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h6 {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name span {
+    font-weight: 700;
+  }
+  .online-job-portal-head .success-story-section .success-card .success-card-left .client-review-card .card-bottom .visit-button a {
+    margin-top: 10px;
+  }
+  .online-job-portal-head .success-story-section .success-card .project-image {
+    display: none;
+  }
+  .online-job-portal-head .success-story-section .owl-carousel .owl-nav button {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 100%;
+    background-color: rgba(195, 145, 103, 0.8);
+  }
+}
+
+.online-job-portal-head .legal-key-offering {
+  background-color: #f8f8f8;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .legal-key-offering {
+    text-align: center;
+  }
+}
+
+.online-job-portal-head .legal-key-offering .key-cont h3 {
+  font-size: 36px;
+  color: #C39167;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.online-job-portal-head .legal-key-offering .key-cont p {
+  color: #1A0A0B;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.online-job-portal-head .legal-key-offering .key-cont img {
+  width: 450px;
+  min-width: 450px;
+  height: 450px;
+  min-height: 450px;
+}
+
+.online-job-portal-head .legal-key-offering .key-card-left {
+  padding-top: 35px;
+}
+
+.online-job-portal-head .legal-key-offering .key-card-left .key-card {
+  padding: 15px 15px 0px 15px;
+  padding-bottom: 15px;
+  border: solid 1px #1A1A1A;
+  margin-bottom: 30px;
+  background: #e3e3e3;
+  min-height: 270px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .legal-key-offering .key-card-left .key-card {
+    min-height: 340px;
+  }
+}
+
+.online-job-portal-head .legal-key-offering .key-card-left .key-card:hover {
+  background: #fff;
+  cursor: pointer;
+}
+
+.online-job-portal-head .legal-key-offering .key-card-left .key-card h4 {
+  font-size: 20px;
+  color: #0A0A0A;
+  margin: 0;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #1A1A1A;
+}
+
+.online-job-portal-head .legal-key-offering .key-card-left .key-card p {
+  padding: 15px 0px 0px;
+  font-size: 16px;
+  color: #1A1A1A;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .legal-key-offering {
+    min-height: 365px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .legal-key-offering {
+    padding: 10px 0px 20px 0px;
+  }
+  .online-job-portal-head .legal-key-offering .key-cont {
+    text-align: center;
+  }
+  .online-job-portal-head .legal-key-offering .key-cont h3 {
+    font-size: 22px;
+  }
+  .online-job-portal-head .legal-key-offering .key-cont p {
+    font-size: 16px;
+  }
+  .online-job-portal-head .legal-key-offering .key-cont img {
+    width: 100%;
+    min-width: auto;
+    height: 100%;
+    min-height: 100%;
+  }
+  .online-job-portal-head .legal-key-offering .key-card-left {
+    padding-top: 35px;
+  }
+  .online-job-portal-head .legal-key-offering .key-card-left .key-card {
+    margin-bottom: 15px;
+    min-height: auto;
+    padding: 15px 15px 0px 15px;
+  }
+  .online-job-portal-head .legal-key-offering .key-card-left .key-card:hover {
+    background: #fff;
+    cursor: pointer;
+  }
+  .online-job-portal-head .legal-key-offering .key-card-left .key-card h4 {
+    font-size: 18px;
+    padding-bottom: 13px;
+  }
+  .online-job-portal-head .legal-key-offering .key-card-left .key-card p {
+    padding: 12px 0px 12px;
+    font-size: 14px;
+  }
+}
+
+.online-job-portal-head .essential-features {
+  position: relative;
+}
+
+.online-job-portal-head .essential-features .features-inner {
+  margin-top: 40px;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card {
+  background: radial-gradient(100% 100% at 71.4% 44.87%, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  padding: 15px;
+  min-height: 405px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .essential-features .features-inner .feature-card {
+    min-height: 460px;
+  }
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .card-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid 1px #ffff;
+  padding-bottom: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .card-head h4 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .card-head img {
+  width: 40px;
+  height: 40px;
+  min-height: 40px;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .basic-point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .basic-point img{
+	width:24px;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .basic-point p {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 180%;
+  text-transform: capitalize;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .bootombox {
+  position: relative;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .bootombox .equal-img {
+  position: absolute;
+  bottom: -192px;
+  right: -333px;
+  width: 416px;
+  z-index: 1;
+  height: 250px;
+}
+
+.online-job-portal-head .essential-features .features-inner .feature-card .bootombox .equal-img img {
+  width:100%;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .essential-features .features-inner .feature-card .bootombox .equal-img {
+    bottom: -242px;
+    right: -300px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .essential-features .features-inner .feature-card {
+    min-height: 490px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .bootombox .equal-img {
+    bottom: -362px;
+    right: -133px;
+    width: 316px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .essential-features .features-inner {
+    margin-top: 40px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card {
+    min-height: auto;
+    padding: 10px 15px 15px 15px;
+    margin-bottom: 15px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .card-head {
+    padding-bottom: 10px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .card-head h4 {
+    font-size: 18px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .card-head img {
+    width: 35px;
+    height: 35px;
+    min-height: 35px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .basic-point {
+    margin-top: 10px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .basic-point img {
+    min-height: 20px;
+    width: 20px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .basic-point p {
+    font-size: 14px;
+  }
+  .online-job-portal-head .essential-features .features-inner .feature-card .bootombox {
+    display: none;
+  }
+}
+
+.online-job-portal-head .leader-section {
+  padding-top: 100px;
+}
+
+.online-job-portal-head .leader-section .section-inner {
+  background: #191919;
+}
+
+.online-job-portal-head .leader-section .section-inner .row .col-lg-4 {
+  padding-left: 0px;
+}
+
+.online-job-portal-head .leader-section .section-inner .row .col-lg-8 {
+  padding-left: 0px;
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-img {
+  margin-top: -155px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .leader-section .section-inner .leader-img {
+    margin-top: -100px;
+  }
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-img img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-cont h3 {
+  font-size: 26px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .leader-section .section-inner .leader-cont h3 {
+    font-size: 20px;
+  }
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-cont h3 span {
+  color: #FFD700;
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-cont p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 5px 50px 0px 0px;
+  margin: 10px 0px 30px 0;
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-cont h5 {
+  color: #fff;
+  font-size: 19px;
+  line-height: 24px;
+  position: relative;
+  padding-left: 90px;
+}
+
+.online-job-portal-head .leader-section .section-inner .leader-cont h5::after {
+  content: "";
+  height: 2px;
+  background: #fff;
+  width: 75px;
+  margin: auto 0px;
+  bottom: 4px;
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .leader-section {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .online-job-portal-head .leader-section .section-inner {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .online-job-portal-head .leader-section .section-inner .row .col-lg-4 {
+    padding-left: 15px;
+  }
+  .online-job-portal-head .leader-section .section-inner .row .col-lg-8 {
+    padding-left: 15px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-img {
+    margin-top: 0;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-img img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0;
+    margin: 10px 0px 18px 0;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont h5 {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 5px 20px 10px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont h5::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .online-job-portal-head .leader-section {
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+  }
+  .online-job-portal-head .leader-section .section-inner {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .online-job-portal-head .leader-section .section-inner .justfy-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .online-job-portal-head .leader-section .section-inner .row .col-lg-4 {
+    padding-left: 15px;
+  }
+  .online-job-portal-head .leader-section .section-inner .row .col-lg-8 {
+    padding-left: 15px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-img {
+    margin-top: 0;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-img img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0;
+    margin: 10px 0px 18px 0;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont h5 {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 5px 240px 15px;
+  }
+  .online-job-portal-head .leader-section .section-inner .leader-cont h5::after {
+    display: none;
+  }
+}
+
+.online-job-portal-head .award-job {
+  padding: 0 0 60px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .online-job-portal-head .award-job {
+    padding: 0 0 30px 0;
+  }
+}
+
+.online-job-portal-head .award-job .owl-carousel .owl-nav {
+  display: none;
+}
+
+.online-job-portal-head .award-job .award {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .award-job .award {
+    margin-top: 0px;
+  }
+}
+
+.online-job-portal-head .award-job .award .item img {
+  width: 175px;
+  height: 175px;
+  min-height: 175px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.online-job-portal-head .technical-architecture-job {
+  background-color: #f9f4f0;
+  padding-bottom: 90px;
+}
+
+@media screen and (max-width: 767px) {
+  .online-job-portal-head .technical-architecture-job {
+    padding-bottom: 0px;
+  }
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-heading {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-heading h3 {
+  color: #1A0A0B;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 10px 10px;
+  width: 23%;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card .card-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-bottom: 1px solid rgba(26, 10, 11, 0.23);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card .card-top .tech-icon {
+  background: #C39167;
+  -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card .card-top .tech-icon img {
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card .card-top .icon-name span {
+  color: #C39167;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: 'Taviraj';
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card .card-mid h5 {
+  color: #1A0A0B;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: 'Poppins' !important;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .tech-info-img img {
+  width: 100%;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .get-tauch {
+  position: relative;
+  margin-top: -30px;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .get-tauch  img{
+	width:100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .get-tauch img {
+    display: none;
+  }
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content {
+  position: absolute;
+  width: 78%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  margin: auto;
+  padding: 0px 40px;
+}
+
+.online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content h3 {
+  font-size: 32px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content h3 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content {
+    position: static;
+    padding: 35px 10px;
+    background: radial-gradient(100% 100% at 71.4% 44.87%, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+  .online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content {
+    height: 70px;
+  }
+  .online-job-portal-head .technical-architecture-job .section-inner .get-tauch .get-tauch-content h3 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card {
+    margin: 20px 8px 10px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card {
+    margin: 20px 10px 30px;
+    width: 22%;
+  }
+  .online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card:nth-last-child(1) {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .online-job-portal-head .technical-architecture-job .section-inner .tech-section .tech-card-list .tech-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.online-job-portal-head .faq-section .panel-group {
+  margin-top: 50px;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid #5F5F5F;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading {
+  padding: 0;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  color: #5F5F5F;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-transform: none;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a:hover {
+  text-decoration: none;
+  color: #5F5F5F;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a span {
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  border: 1px solid #5F5F5F;
+  border-radius: 100%;
+  color: #5F5F5F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a:not(.collapsed) {
+  background-color: #C39167;
+  color: #fff;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a:not(.collapsed) .panel {
+  border: solid 1px transparent;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a:not(.collapsed) span {
+  border-color: #fff;
+  color: #fff;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-heading a:not(.collapsed) span i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-body {
+  padding: 0px 20px 20px;
+  border-top: none;
+  background-color: #C39167;
+  color: #fff;
+  font-size: 16px;
+}
+
+.online-job-portal-head .faq-section .panel-group .panel .panel-body .panel-body-inner {
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Dosis';
+}
+
+@media only screen and (max-width: 767px) {
+  .online-job-portal-head .faq-section .panel-group {
+    margin-top: 25px;
+  }
+  .online-job-portal-head .faq-section .panel-group .panel .panel-heading a {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .online-job-portal-head .faq-section .panel-group .panel .panel-heading a span {
+    margin-left: 20px;
+    border: 1px solid #5F5F5F;
+  }
+  .online-job-portal-head .faq-section .panel-group .panel .panel-heading a:not(.collapsed) {
+    font-size: 16px;
+    padding: 20px 10px 10px;
+  }
+  .online-job-portal-head .faq-section .panel-group .panel .panel-heading a:not(.collapsed) .panel {
+    border: solid 1px transparent;
+  }
+  .online-job-portal-head .faq-section .panel-group .panel .panel-body {
+    padding: 0px 10px 10px;
+    font-size: 16px;
+  }
+  .online-job-portal-head .faq-section .panel-group .panel .panel-body .panel-body-inner {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
+
+.online-job-portal-head .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.online-job-portal-head .owl-carousel .owl-nav button {
+  border: 0px;
+  padding: 0px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+.online-job-portal-head .owl-carousel .owl-nav button img {
+  width: 34px;
+  min-width: 34px;
+}
+
+.online-job-portal-head .owl-carousel .owl-nav .owl-prev {
+  margin-left: -40px;
+}
+
+.online-job-portal-head .owl-carousel .owl-nav .owl-next {
+  margin-right: -40px;
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1200px) {
+  .online-job-portal-head .owl-carousel .owl-nav button img {
+    width: 25px;
+    min-width: 25px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-prev {
+    margin-left: -26px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-next {
+    margin-right: -26px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .online-job-portal-head .owl-carousel .owl-nav button img {
+    width: 30px;
+    min-width: 30px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-prev {
+    margin-left: -26px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-next {
+    margin-right: -26px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .online-job-portal-head .owl-carousel .owl-nav button img {
+    width: 30px;
+    min-width: 30px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-prev {
+    margin-left: -18px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-next {
+    margin-right: -18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .online-job-portal-head .owl-carousel .owl-nav button img {
+    width: 30px;
+    min-width: 30px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-prev {
+    margin-left: -10px;
+  }
+  .online-job-portal-head .owl-carousel .owl-nav .owl-next {
+    margin-right: -10px;
+  }
+}
+/*# sourceMappingURL=legal-advisory-web-app-development.css.map */

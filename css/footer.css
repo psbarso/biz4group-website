@@ -1,0 +1,232 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.list-spacing, .footer-bottom ul, .footer-desc ul, .footer-sub ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-sub {
+  background-color: #3f6ea4;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .footer-sub {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+.footer-sub img {
+  width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer-sub ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 80px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-sub ul {
+    padding: 0 20px;
+    font-size: 12px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-sub ul {
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+}
+.footer-sub ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-sub ul li i {
+  font-size: 15px;
+  margin-right: 6px;
+}
+.footer-sub ul li:last-child i {
+  font-size: 20px;
+}
+
+.footer-desc {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-desc h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.footer-desc a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-desc a {
+    font-size: 13px;
+  }
+}
+.footer-desc a .footer-btn {
+  background-color: #f56a6a;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: 10px;
+  border: none;
+}
+.footer-desc .seprate-line {
+  position: relative;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-desc .seprate-line::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-desc .seprate-line::after {
+    display: none;
+  }
+}
+.footer-desc .seprate-line::after {
+  position: absolute;
+  content: " ";
+  width: 2px;
+  height: 100%;
+  top: 0;
+  right: 15px;
+  background-color: #909090;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-desc .seprate-line::after {
+    right: 4px;
+  }
+}
+.footer-desc .seprate-line.after-none::after {
+  display: none;
+}
+.footer-desc ul li a {
+  color: #539ee4;
+  text-decoration: none;
+}
+.footer-desc ul.list-seprate {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-desc ul.list-seprate li {
+  width: 50%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-desc ul.list-seprate li {
+    width: 35%;
+  }
+}
+.footer-desc .promotion-company {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+.footer-desc .promotion-company li {
+  border-right: 1px solid #333;
+  padding: 0 10px;
+}
+.footer-desc .promotion-company li:last-child {
+  border: none;
+}
+.footer-desc .promotion-company li a img {
+  min-width: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 22px;
+}
+
+.footer-bottom {
+  padding: 15px 0;
+  background: #333;
+}
+.footer-bottom .bottom-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .footer-bottom .bottom-desc {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.footer-bottom ul {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .footer-bottom ul {
+    font-size: 10px;
+  }
+}
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+.footer-bottom ul li a i {
+  transition: 0.4s all;
+}
+.footer-bottom ul li a:hover {
+  border-color: #539ee4;
+  color: #539ee4;
+}
+.footer-bottom ul li a:hover i {
+  color: #539ee4;
+}
+.footer-bottom ul li .social-icon {
+  border: 2px solid #fff;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .footer-bottom ul li .social-icon i {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=footer.css.map */

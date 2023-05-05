@@ -1,0 +1,261 @@
+// @import "./font.scss";
+@import "./common.scss";
+a {
+  color: $black;
+  text-decoration: none;
+}
+.eCommerce-business-banner {
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  padding: 80px 0px;
+  display: flex;
+  align-items: flex-end;
+  .eCommerce-business-banner-content {
+    text-align: center;
+    p {
+      color: #2a2b2a;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 0px;
+      padding-bottom: 15px;
+    }
+    h2 {
+      color: #ff9630;
+      font-weight: 600;
+      font-size: 32px;
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+.eCommerce-business-about {
+  padding: 50px 0px;
+  box-shadow: 0px -15px 25px #0000000d;
+  background-color: #f8f8f8;
+  .row {
+    align-items: center;
+  }
+  .eCommerce-business-about-img {
+    img {
+      width: 100%;
+    }
+  }
+  .eCommerce-business-about-content {
+    button {
+      max-width: 200px;
+      width: 200px !important;
+      &:hover {
+        background-color: #ff9630;
+        color: #ffff;
+      }
+    }
+    p {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .eCommerce-business-about-btn {
+      .theme-btn {
+        background-color: #ff9630;
+        color: #ffff;
+        border: none;
+        font-family: Roboto-Medium;
+        font-size: 14px;
+        border-radius: 2rem;
+        padding: 12px 42px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.eCommerce-keyfeatures {
+  padding: 50px 0px;
+  .eCommerce-keyfeatures-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+      color: #2a2b2a;
+    }
+  }
+  .eCommerce-keyfeatures-box {
+    margin-bottom: 30px;
+    .row {
+      align-items: center;
+    }
+    .eCommerce-keyfeatures-img {
+      margin: 20px 0px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+    .eCommerce-keyfeatures-list {
+      padding: 0px 50px;
+      ul {
+        margin: 0px;
+        padding: 0px;
+        li {
+          list-style: none;
+          p {
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            i {
+              color: #ff9630;
+              margin-right: 10px;
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.eCommerce-features {
+  ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    li {
+      list-style: none;
+      width: 33%;
+      list-style: none;
+      .eCommerce-features-item {
+        padding: 20px;
+        .eCommerce-features-item-img {
+          background-color: #ff9630;
+          display: inline-block;
+          padding: 10px;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          img {
+            width: 100%;
+            max-width: 40px;
+          }
+        }
+        h3 {
+          font-family: Roboto-Medium;
+          font-size: 18px;
+          font-weight: 500;
+          color: #2a2b2a;
+          margin-bottom: 8px;
+          position: relative;
+          padding-bottom: 5px;
+          &:after {
+            content: "";
+            bottom: 0;
+            width: 50px;
+            height: 2px;
+            background-color: #ff9630;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+          }
+          &:before {
+            content: "";
+            bottom: 0;
+            width: 5px;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            left: 10px;
+            bottom: 0;
+            z-index: 99;
+          }
+        }
+        p {
+          font-size: 13px;
+          font-weight: normal;
+          color: #2a2b2a;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+.ecommerce-consultation {
+  max-width: 975px;
+  margin: 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: -70px;
+  box-shadow: 0px -15px 25px #0000000d;
+  .ecommerce-consultation-inner {
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      color: #2a2b2a;
+      margin-bottom: 20px;
+      span {
+        font-family: Roboto-Bold;
+        display: block;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #2a2b2a;
+        margin-bottom: 0px;
+        line-height: normal;
+      }
+    }
+    .ecommerce-consultation-btn {
+      .yellow-outline-btn {
+        background-color: transparent;
+        color: #2a2b2a;
+        border: 2px solid #ff9630;
+        font-family: Roboto-Medium;
+        font-size: 14px;
+        border-radius: 2rem;
+        padding: 12px 42px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.footer {
+  padding-top: 8rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .eCommerce-features {
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+  }
+  .eCommerce-business-banner {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) and(max-width:1024px) {
+  .eCommerce-business-banner {
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding-top: 5rem;
+  }
+  .ecommerce-consultation {
+    padding: 20px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,521 @@
+// colors
+$mainOrange: #ff9630;
+$mainWhite: #ffff;
+$black: #2a2b2a;
+$bgGrey: #f8f8f8;
+$bgPink: #fff4ea;
+$lightOrange: #ffb56d;
+$lightGrey: #00000029;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//body
+body {
+  background-color: #ffff !important;
+  .form-control {
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  // navbar section scss
+  .navbar-brand {
+    img {
+      max-width: 170px;
+    }
+  }
+
+  .navbar-nav {
+    // .active {
+    //   &::after {
+    //     content: "";
+    //     border: 1px solid $mainOrange;
+    //     display: block;
+    //     width: 20px;
+    //   }
+    // }
+    .nav-link {
+      font-family: Roboto-Medium;
+      font-size: 14px;
+      padding-top: 1rem;
+      color: $black !important;
+      padding-bottom: 5px;
+      &:hover::after {
+        content: "";
+        border-bottom: 2px solid $mainOrange;
+        display: block;
+        width: 20px;
+      }
+      @media (max-width: 1023px) {
+        &:hover::after {
+          content: "";
+          display: none;
+        }
+      }
+    }
+  }
+
+  .top-nav {
+    background-color: $black;
+    color: $mainWhite;
+    padding: 10px;
+
+    a {
+      padding-right: 10px;
+      color: $mainWhite;
+    }
+
+    i {
+      color: $mainWhite;
+      @media (max-width: 320px) {
+        display: none;
+      }
+    }
+
+    .email {
+      padding-right: 40px;
+      @media (max-width: 320px) {
+        padding-left: 30px;
+      }
+    }
+    @media (max-width: 999px) {
+      .phone {
+        text-align: center;
+      }
+
+      .email {
+        padding-right: 20px;
+      }
+    }
+    &__right {
+      @media (min-width: 992px) {
+        padding-left: 113px;
+      }
+    }
+  }
+
+  .navbar {
+    @media (max-width: 999px) {
+      .navbar-nav {
+        text-align: center;
+      }
+
+      .button--orange {
+        width: 70%;
+      }
+    }
+  }
+
+  // navbar ends
+
+  button {
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.page-margin {
+  padding: 0 8.75rem;
+}
+
+.button {
+  font-family: Roboto-Medium;
+  font-size: 14px;
+  border-radius: 2rem;
+  padding: 12px 42px;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $black;
+    color: $mainWhite;
+  }
+  span {
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+  }
+  i {
+    display: none;
+  }
+  span:after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  &:hover {
+    span {
+      padding-right: 15px;
+    }
+    i {
+      display: inline-block;
+    }
+  }
+  &:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  &--orange {
+    background-color: $mainOrange;
+    color: $mainWhite;
+    border: none;
+    width: 250px;
+  }
+  &--explore {
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: $black;
+    color: $mainWhite;
+    border: none;
+    width: 200px;
+  }
+  &--outline {
+    border: 1px solid $mainOrange;
+    width: 320px;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $mainOrange;
+      color: $mainWhite;
+    }
+  }
+  &--outlineBlack {
+    border: 1px solid $black;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    width: 250px;
+    &:hover {
+      background-color: $black;
+      color: $mainWhite;
+      i {
+        color: $mainWhite;
+      }
+    }
+  }
+  &--Black {
+    padding: 1rem 0;
+    background-color: $black;
+    color: $mainWhite;
+    width: 250px !important;
+    border: none;
+    &:hover {
+      background-color: $mainWhite;
+      color: $black;
+      outline: none;
+    }
+  }
+  &--subscribe {
+    // max-width: 180px ;
+  }
+}
+
+h1 {
+  font-family: Roboto-Bold;
+}
+h2 {
+  font-family: Roboto-Medium;
+  font-size: 1.7rem !important;
+  margin-bottom: 8px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: Roboto-Medium;
+  font-size: 1.2rem !important;
+}
+p {
+  font-family: Roboto-Light;
+  font-size: 1rem;
+}
+
+h4 {
+  font-family: Roboto-Bold;
+  font-size: 2rem;
+  text-align: left;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+h5 {
+  font-family: Roboto-Bold;
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-family: Roboto-Light;
+  font-size: 0.8rem;
+}
+
+// footer
+
+.footer {
+  padding-top: 12rem;
+  @media (max-width: 480px) {
+    padding-top: 1rem;
+  }
+  background-color: $black;
+  z-index: -10;
+  color: $mainWhite;
+
+  p {
+    font-size: 14px;
+    font-family: Roboto-Light;
+  }
+
+  h4 {
+    font-size: 1rem;
+    color: $mainWhite !important;
+    font-family: Roboto-Light;
+    padding-bottom: 8px;
+
+    &::before {
+      background-color: $black;
+    }
+  }
+
+  .subscribe {
+    button {
+      background-color: $mainOrange;
+      color: $mainWhite;
+      border-radius: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $mainWhite;
+  }
+
+  .quickView,
+  .services {
+    padding-top: 15px;
+
+    p {
+      padding-top: 10px;
+      max-width: 100px;
+      line-height: 2;
+    }
+    a {
+      &:hover {
+        color: $mainOrange;
+      }
+    }
+  }
+
+  .subscribe {
+    padding-top: 15px;
+    // button {
+    //   max-width: 200px;
+    //   width: 150px;
+    // }
+  }
+
+  .input-group {
+    padding-top: 15px;
+
+    input {
+      background-color: $black;
+      border: 1px solid $mainWhite;
+      border-radius: 28px;
+
+      &::placeholder {
+        color: $mainWhite;
+      }
+    }
+
+    button {
+      border-radius: 28px;
+      padding: 6.2px 20px !important;
+
+      &:hover {
+        background-color: $black;
+        color: $mainWhite;
+        border: 1px solid $mainWhite;
+      }
+    }
+  }
+
+  .contact {
+    padding-top: 20px;
+
+    p {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .copyright {
+    .privacy-policy {
+      ul {
+        display: flex;
+
+        li {
+          list-style-type: none;
+
+          &::after {
+            content: "";
+            border: 0.5px solid $mainWhite;
+            margin: 0 10px;
+          }
+
+          &:last-child {
+            &::after {
+              content: "";
+              border: none;
+            }
+          }
+        }
+      }
+
+      a {
+        font-size: 14px;
+        text-decoration: none;
+        font-family: Roboto-Light;
+      }
+    }
+    .text-right {
+      a:hover {
+        color: $mainOrange;
+      }
+    }
+    .contact {
+      a:hover {
+        color: $mainOrange;
+      }
+    }
+  }
+
+  hr {
+    background-color: $mainWhite;
+  }
+}
+
+.left-text-underline {
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: #ff9630;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 20px;
+  }
+
+  &::before {
+    content: "";
+    bottom: 0;
+    width: 10px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    z-index: 99;
+  }
+  @media (max-width: 767px) {
+    &::before,
+    &::after {
+      content: "";
+      display: none;
+    }
+  }
+}
+// left text underline css ends
+// center text underline css starts
+
+.center-text-underline {
+  position: relative;
+
+  &::after {
+    content: "";
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: #ff9630;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-radius: 20px;
+    // transform: translateX(-3%);
+  }
+
+  &--left {
+    &::after {
+      content: "";
+      transform: translateX(-20%);
+    }
+
+    &::before {
+      content: "";
+      background-color: #f8f8f8 !important;
+    }
+  }
+
+  &::before {
+    content: "";
+    bottom: 0;
+    width: 10px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: 99;
+  }
+  @media (max-width: 767px) {
+    &::before,
+    &::after {
+      content: "";
+      display: none;
+    }
+  }
+}
+// center -text underline css ends
+
+// side border line
+
+.side-border {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    right: -60px;
+    top: 0px;
+    background-color: #ff9630;
+    width: 4px;
+    height: 100%;
+    border-radius: 10px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    right: -60px;
+    bottom: 48px;
+    background-color: #ffff;
+    height: 7%;
+    width: 5px;
+    z-index: 99;
+  }
+  @media (max-width: 1200px) {
+    &::before,
+    &::after {
+      content: "";
+      display: none;
+    }
+  }
+}

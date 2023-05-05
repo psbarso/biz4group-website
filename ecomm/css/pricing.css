@@ -1,0 +1,279 @@
+
+.pricing {
+  margin-top: 100px;
+}
+
+.pricing .row {
+  margin-top: -168px;
+}
+
+.pricing .pricing-header {
+  background: url("../images/contact-about-background.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem 0 10rem 0;
+  background-position: 10px -132px;
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+  .pricing .pricing-header {
+    background-position: 10px -33px;
+	    padding: 3rem 0 3rem 0;
+
+  }
+}
+@media(min-width:481px) and (max-width:767px){
+	.pricing .pricing-header{
+	padding: 3rem 0 2rem 0;
+	background:none;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+  /* .pricing { */
+    /* margin-top: 14% !important; */
+  /* } */
+}
+
+@media (max-width: 480px) {
+  .pricing {
+    margin-top: 20% !important;
+  }
+  .pricing .pricing-header{
+	      padding: 5rem 0 0rem 0;
+background:none;
+  }
+  .pricing .row{
+	  margin-top:-30px !important;
+  }
+}
+
+.pricing h2 {
+  color: #ff9630 !important;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.pricing h2::after {
+  content: "";
+  left: 49.5% !important;
+  height: 4px;
+}
+
+.pricing h2::before {
+  content: "";
+  height: 4px;
+}
+
+.pricing h2 span {
+  color: #2a2b2a;
+  font-size: 1.2rem;
+  font-family: Roboto-Medium;
+}
+
+.pricing .col-lg-4 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.fa-ul {
+  margin-left: 0 !important;
+}
+
+.fa-ul li {
+  font-family: Roboto-Light;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 !important;
+  padding: 20px;
+  position: relative;
+}
+
+.fa-ul li::after {
+  content: "";
+  border: 0.5px dashed grey !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.fa-ul li:last-child::after {
+  display: none;
+}
+
+.pricing .card {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 
+0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 991px) {
+  .pricing .card {
+    border-radius: 1rem;
+  }
+}
+
+.pricing hr {
+  margin: 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.prop-feature {
+  font-size: 10px !important;
+  padding-top: 0 !important;
+}
+
+.cloud-feature {
+  padding-top: 10px !important;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin: 1.4rem 0;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.card-body {
+  padding: 0 !important;
+  border-radius: 15px !important;
+}
+
+.card-body .features {
+  font-family: Roboto-Bold;
+  font-size: 1.5rem !important;
+  color: #ff9630;
+  padding: 100.5px 0 80px 0;
+}
+
+@media (max-width: 991px) {
+  .card-body .features {
+    padding: 30.5px 0 20px 0;
+  }
+}
+
+.card-body .features p {
+  color: #2a2b2a;
+  text-transform: capitalize;
+}
+
+.card-body .plans {
+  background-color: #ffb56d;
+  padding: 36px 10px;
+  margin: 0px !important;
+  font-family: Roboto-Bold;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.card-body .plans--bottom {
+  font-size: 1.2rem;
+  color: #2a2b2a;
+  padding: 25px 20px ;
+}
+.card-body .plans--left{
+	  padding: 25px 20px ;
+
+}
+
+@media (max-width: 991px) {
+  .card-body .plans--bottom {
+    text-align: center;
+  }
+}
+
+.card-body .price {
+  background-color: #ff9630;
+  margin: 0px !important;
+  padding: 17px 10px;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.card-body .price p {
+  font-size: 1rem;
+  font-family: Roboto-Light;
+  padding-top: 10px;
+}
+
+.card-body .cloud-price {
+  padding: 41px 10px;
+}
+
+.card-body button {
+  margin: 19.5px 0;
+}
+
+.card-body .button--outlineBlack {
+  padding: 0.8rem 3rem;
+}
+
+.footer {
+  padding-top: 10rem;
+}
+
+.fa-ul span {
+  display: block;
+  font-family: Roboto-Bold;
+}
+
+@media (min-width: 992px) {
+  .card {
+    margin-bottom: -138px !important;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding-top: 2rem !important;
+  }
+    .pricing .row{
+	      margin-top: -58px;
+  }
+}
+
+@media(max-width:280px){
+	.button--Black{
+		    width: 205px !important;
+
+	}
+}
+/*# sourceMappingURL=pricing.css.map */

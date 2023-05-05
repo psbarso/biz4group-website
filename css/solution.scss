@@ -1,0 +1,470 @@
+body {
+color: #000000;
+}
+
+.solution-main {
+    padding-top: 110px;
+    .solution-banner {
+        background-image: url("../images/solutions/solution-amour-banner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 150px 0;
+        h1,p {
+            color: #fff;
+            font-weight: 400;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 50px 0;
+        }
+    }
+    .choose-section {
+        h2, p {
+            text-align: center;
+            font-weight: 400;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            @media (min-width: 768px) and (max-width: 991px) {
+                flex-wrap: wrap;
+            }
+            @media screen and (max-width: 767px) {
+                flex-wrap: wrap;
+            }
+            li {
+                box-shadow: 0px 3px 30px #00000014;
+                color: #000;
+                padding: 15px 25px;
+                margin-right: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (min-width: 768px) and (max-width: 991px) {
+                margin-bottom: 15px;
+                }
+                @media screen and (max-width: 767px) {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 10px;
+                }
+                img {
+                    width: 25px;
+                    height: 25px;
+                    object-fit: contain;
+                    margin-right: 10px;
+                }
+                &:last-child {
+                    margin: 0;
+                    @media (min-width: 768px) and (max-width: 991px) {
+                        margin-right: 15px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .unique-services {
+        background-color: #FFFAFA;
+    }
+
+    .solution-cta {
+        background-image: url(../images/solutions/solution-cta.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+        padding: 95px 0 65px;
+        margin-top: -60px;
+        color: #fff;
+        @media (min-width: 768px) and (max-width: 991px) {
+            background-size: cover;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 90px 0 50px;
+            background-position: left;
+            background-size: cover;
+        }
+        h3 {
+            font-weight: 400;
+            span {
+                color: #ED3232;
+                font-weight: 700;
+            }
+        }
+        p {
+            margin-bottom: 20px;
+        }
+    }
+
+    .best-work {
+        background-color: #FFFAFA;
+        .carousel {
+            margin-top: 50px;
+            position: relative;
+            .item {
+                padding: 0 40px;
+                .main-carousel-img {
+                    height: 400px;
+                    object-fit: cover;
+                    width: 100%;
+                    @media (min-width: 768px) and (max-width: 991px) {
+                        height: 340px;
+                        object-fit: cover;
+                    }
+                    @media screen and (max-width: 767px) {
+                        height: 250px;
+                    }
+                }
+                .carousel-desc {
+                    height: 400px;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    @media screen and (max-width: 767px) {
+                    text-align: center;
+                    align-items: center;
+                    }
+                    img {
+                        width: 200px;
+                        object-fit: contain;
+                        object-position: center;
+                        margin-bottom: 20px;
+                        @media (min-width: 768px) and (max-width: 991px) {
+                            width: 150px;
+                        }
+                        @media screen and (max-width: 767px) {
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                        width: 150px;
+                        }
+                    }
+                    p {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .carousel-control {
+                position: absolute;
+                top: 50%;
+                background-image: none;
+                &.left {
+                    left: 0;
+                }
+                &.right {
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    .planning-structure {
+        position: relative;
+        padding: 70px 0;
+        @media (min-width: 992px) and (max-width: 1200px) {
+            padding: 40px 0 70px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            .plan-path-img {
+                display: none;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            .plan-path-img {
+                display: none;
+            }
+        }
+        .plan-left-icon {
+            position: absolute;
+            bottom: 70px;
+            left: 0;
+            width: 150px;
+            object-fit: contain;
+            @media (min-width: 768px) and (max-width: 991px) {
+                display: none;
+            }
+            @media screen and (max-width: 767px) {
+                display: none;
+        }
+        }
+        .plan-right-icon {
+            position: absolute;
+            top: 170px;
+            right: -40px;
+            width: 180px;
+            object-fit: contain;
+            @media (min-width: 768px) and (max-width: 991px) {
+                display: none;
+            }
+            @media screen and (max-width: 767px) {
+                    display: none;
+            }
+        }
+
+        .planning-list {
+            list-style: none;
+            margin: 0;
+            padding: 0 30px;
+            display: none;
+            @media (min-width: 768px) and (max-width: 991px) {
+                display: block;
+            }
+            @media screen and (max-width: 767px) {
+                display: block;
+            }
+            li {
+                margin-bottom: 20px;
+                text-align: center;
+                img {
+                    width: 60px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .contact-cta {
+        background-color: #ED3232;
+        color: #fff;
+        padding: 60px 0;
+        text-align: center;
+        h2 {
+            font-weight: 400;
+        }
+    }
+
+    .faq-section {
+        h2 {
+            font-weight: 400;
+            span {
+                font-weight: 700;
+                color: #ED3232;
+            }
+        }
+        .panel {
+            border-radius: 0;
+            border: none;
+            margin-bottom: 10px;
+            box-shadow: none;
+            .panel-heading {
+                background-color: #FAFAFA;
+                padding: 0;
+                a {
+                    font-weight: 400;
+                    text-decoration: none;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 25px;
+                }
+            }
+            .panel-body {
+                padding: 15px 25px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+//common card style -----------
+.service-card {
+    padding: 40px 20px;
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 50px #ED32322C;
+    text-align: center;
+    transition: 0.4s all;
+    margin-bottom: 30px;
+    min-height: 422px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+        min-height: 486px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        min-height: auto;
+    }
+    @media screen and (max-width: 767px) {
+    padding: 20px;
+    min-height: auto;
+    }
+    h4 {
+        color: #ED3232;
+    }
+    &:hover {
+        border: 1px solid #ED3232;
+    }
+    .service-icon {
+        width: 50px;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+    &.application-card {
+        padding: 0;
+        min-height: 556px;
+        @media (min-width: 992px) and (max-width: 1200px) {
+            min-height: 578px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            min-height: 556px;
+        }
+        @media screen and (max-width: 767px) {
+            min-height: auto;
+        }
+        .app-img {
+        height: 220px;
+        object-fit: cover;
+        @media (min-width: 768px) and (max-width: 991px) {
+            width: 100%;
+        }
+        }
+        .app-desc {
+            padding: 20px;
+            ul {
+                text-align: left;
+                margin-top: 20px;
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+//common heading style -----------
+.solution-heading {
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    span {
+        font-weight: 700;
+        color: #ED3232;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 10px;
+        background-color: #000;
+        height: 3px;
+        width: 130px;
+        margin: 0 auto;
+    }
+    &::before {
+        position: absolute;
+        content: "";
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        border-radius: 10px;
+        background-color: #ED3232;
+        height: 7px;
+        width: 50px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+}
+
+.common-heading-left {
+    position: relative;
+    padding-bottom: 20px;
+    text-align: left;
+    &.feature-black {
+        &::after {
+            background-color: #000;
+        }
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: 2px;
+        left: 0;
+        border-radius: 10px;
+        background-color: #fff;
+        height: 3px;
+        width: 130px;
+    }
+    &::before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        background-color: #ED3232;
+        height: 7px;
+        width: 50px;
+        z-index: 1;
+    }
+}
+
+//solution button style ------------
+.solution-btn {
+    border-radius: 34px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    transition: 0.3s all;
+    &.red-btn {
+        background-color: #ED3232;
+        color: #fff;
+        &:hover {
+            border: 1px solid #ED3232;
+            color: #ED3232;
+            background-color: #fff;
+            svg {
+                fill:#ED3232;
+            }
+        }
+    }
+    img,svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        fill: #fff;
+    }
+}
+
+//common style alignment -------------
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+//common spacing style ------------
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.px40 {
+    padding: 0 40px;
+}

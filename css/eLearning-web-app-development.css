@@ -1,0 +1,2831 @@
+@font-face {
+  font-family: Chalktastic;
+  src: url(../fonts/Chalktastic-x1nR.woff);
+}
+.disable-link {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+.opicity-0 {
+  opacity: 0;
+}
+
+.panel-default .panel-heading {
+  background: #fff !important;
+}
+
+h1 {
+  font-family: "Chalktastic";
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.elearning-head {
+  padding-top: 70px;
+}
+
+hr {
+  margin: 0;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-block {
+  display: block;
+}
+
+a {
+  display: inline-block;
+}
+
+.comman-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.comman-heading h2 {
+  color: #1A0A0B;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0;
+}
+
+.comman-heading h2 span {
+  color: #715CF4;
+  font-weight: 800;
+}
+
+.comman-heading img {
+  margin: 15px 0px;
+  width: 165px !important;
+}
+
+.comman-heading p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1A0A0B;
+}
+
+.comman-heading h3 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0;
+}
+
+.card-relative {
+  position: relative;
+}
+
+.card-social-network h4 {
+  color: #715CF4;
+  font-size: 24px;
+}
+
+.uniquebox p {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.key-bg-shop {
+  position: relative;
+}
+
+.key-bg-shop-img {
+  position: absolute;
+  bottom: -22px;
+  right: 90px;
+  width: 440px;
+}
+
+.box-design {
+  margin: 0;
+  padding: 7;
+}
+
+.owl-nav button span {
+  display: none;
+}
+
+.unique-section {
+  padding-top: 65px;
+}
+
+.uniquebox {
+  background: #F5F4FE !important;
+  padding: 10px 15px;
+  transition: 0.4s all;
+  margin: 10px 0px;
+  background: #F5F4FE;
+  height: 245px;
+}
+
+/* .uniquebox h4{
+    padding-bottom: 10px;
+
+  } */
+.left-position-img {
+  position: relative;
+}
+
+.left-position-img img {
+  position: absolute;
+  top: -60px;
+  right: -28px;
+  width: 90px;
+}
+
+.uqnic {
+  margin-top: 69px;
+}
+
+.key-offering {
+  background: #715CF4;
+  padding: 8px 0px 60px 14px;
+  position: absolute;
+  top: -73px;
+  left: -29px;
+  width: 105%;
+  height: 65px;
+  z-index: -100;
+}
+
+.key-bg-shop {
+  padding: 10px;
+  transition: 0.4s all;
+  margin: 10px 10px;
+  background: #F5F4FE;
+}
+
+.developement p {
+  font-size: 16px !important;
+}
+
+.key-bg {
+  background: #3C3C3C !important;
+  padding: 16px 12px;
+  transition: 0.4s all;
+  margin: 0px 5px;
+  min-height: 177px;
+}
+
+.key-bg p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.key-offering h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.left-position-feature-last {
+  position: relative;
+}
+
+.left-position-feature-last img {
+  position: absolute;
+  top: -98px;
+  right: -40px;
+  width: 150px;
+  min-height: 136px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.cont-container {
+  padding: 20px;
+  min-height: 410px;
+}
+
+.e-store {
+  margin: 30px 0px;
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/free_trial.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  min-height: 500px;
+  position: relative;
+}
+
+.store-left {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 70px;
+  left: 400px;
+  right: 0px;
+}
+
+.round-sec h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.round-sec p {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.card-last-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px 9px;
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story1 {
+  background: linear-gradient(104.53deg, #17A5A5 3.31%, #057C7C 101.92%);
+  width: 100%;
+  padding-bottom: 60px;
+  height: auto;
+  color: #fff;
+  border-radius: 20px;
+  min-height: 710px;
+  position: relative;
+}
+
+.tank {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/work-bg2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 60px;
+  height: auto;
+  color: #fff;
+  border-radius: 20px;
+  /* padding: 10px 0 450px; */
+  min-height: 710px;
+  position: relative;
+}
+
+.subsciety {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/work-bg3.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 60px;
+  height: auto;
+  color: #fff;
+  border-radius: 20px;
+  /* padding: 10px 0 450px; */
+  min-height: 710px;
+  position: relative;
+}
+
+.anthony {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/work-bg4.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 60px;
+  height: auto;
+  color: #fff;
+  border-radius: 20px;
+  /* padding: 10px 0 450px; */
+  min-height: 710px;
+  position: relative;
+}
+
+.founder {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/work-bg5.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 60px;
+  height: auto;
+  color: #fff;
+  border-radius: 20px;
+  /* padding: 10px 0 450px; */
+  min-height: 710px;
+  position: relative;
+}
+
+.accu img {
+  padding-top: 0px !important;
+  margin-top: -10px !important;
+}
+
+.worklogo-md {
+  border-right: solid 2px #fff;
+  height: 55px;
+  padding-right: 10px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.worklogo-md img {
+  width: 300px;
+  padding-top: 11px;
+}
+
+.bottom-to-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 500px;
+}
+
+.work-container {
+  padding: 40px 15px;
+}
+
+.work-side {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+
+.work-side-logo img {
+  width: 250px !important;
+  padding-right: 5px;
+  margin-top: 5px;
+  border-right: solid 2px #fff;
+}
+
+.work-caption {
+  padding-left: 5px;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.work-caption p {
+  padding-left: 10px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.work-side-card {
+  background: #fff;
+  padding: 15px;
+  color: #000;
+  border-radius: 10px;
+  width: 450px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.work-side-card h4 {
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.work-side-card img {
+  width: 100px !important;
+  margin: 2px 0px 8px 0px;
+}
+
+.work-side-card hr {
+  margin: 5px 0 !important;
+  background: #3C3C3C;
+  min-height: 1px;
+}
+
+.card-img-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-logo {
+  border-radius: 100%;
+}
+
+.user-logo img {
+  width: 60px !important;
+}
+
+.work-card-caption p {
+  font-weight: 600;
+  color: #000;
+  font-size: 17px;
+}
+
+.work-card-caption h5 {
+  font-weight: 700;
+  color: #FFCD00;
+  font-size: 14px;
+  margin: 0;
+}
+
+.work-card-caption {
+  padding: 10px;
+}
+
+.btn-blue {
+  background: #715CF4;
+  color: #fff !important;
+  font-size: 14px !important;
+  padding: 7px 21px !important;
+}
+
+.award ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding-bottom: 80px;
+  border-bottom: 1px solid #ddd; */
+}
+
+.buy-marketplace {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/basketbanner.webp);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  width: 100%;
+  min-height: 460px;
+  color: #fff;
+  padding: 0;
+  position: relative;
+}
+
+@media screen and (max-width: 425px) {
+  .card-img-btn {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .solution-btn {
+    font-size: 12px !important;
+    padding: 9px 7px !important;
+  }
+  .card-img-btn {
+    flex-direction: row;
+  }
+  .feature h4 {
+    font-size: 17px;
+  }
+  .name h3 {
+    font-size: 20px;
+  }
+  .solution-main .faq-section .panel .panel-heading a {
+    font-size: 19px;
+  }
+  .solution-main .faq-section .panel .panel-body {
+    font-size: 16px;
+  }
+}
+.arc-main img {
+  border-radius: 20px;
+  box-shadow: -2px 0px 28px -25px rgba(0, 0, 0, 0.75);
+}
+
+.buy-caption {
+  padding: 20px 115px;
+  margin-top: 150px;
+  width: 60%;
+}
+
+.buy-caption p {
+  font-size: 18px;
+  padding-bottom: 25px;
+  color: #1A0A0B;
+  font-weight: 600;
+}
+
+.buy-caption h2 {
+  font-weight: 700;
+  color: #1A0A0B;
+  font-size: 35px;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.full-blue-btn {
+  background: #715CF4;
+  color: #fff !important;
+}
+
+.full-blue-btn:hover {
+  background: #1A0A0B;
+  border: solid 1px #fff;
+}
+
+.leader-caption {
+  width: 900px;
+  position: absolute;
+  top: 50px;
+  right: -5px;
+  margin: 0 auto;
+}
+
+.leader-caption h2 {
+  color: #1A0A0B;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.leader-caption-sanjivsir {
+  padding-left: 31px;
+}
+
+.leader-caption-sanjivsir h3 {
+  padding-top: 5px;
+  color: #FFCD00;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.leader-caption-sanjivsir p {
+  margin-top: 60px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.leader {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/sanjivsir.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  min-height: 420px;
+  color: #fff;
+  position: relative;
+}
+
+.solution-main .faq-section .panel .panel-heading {
+  background-color: #fff;
+  color: #715CF4;
+  padding: 0;
+}
+
+.solution-main .faq-section .panel .panel-body {
+  padding: 15px 15px;
+  font-size: 21px;
+  margin: 0px 10px;
+  color: #fff;
+  font-weight: 400;
+}
+
+#collapse1,
+#collapse2,
+#collapse3,
+#collapse4,
+#collapse5,
+#collapse6 {
+  background: #715CF4;
+}
+
+.solution-main .faq-section .panel .panel-heading a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 15px;
+}
+
+.panel-collapse .collapse {
+  background: #fff !important;
+}
+
+.faq-section .panel-title a.collapsed span i {
+  transform: rotate(0deg);
+}
+
+.faq-section .panel-title a span i::before {
+  transform: rotate(0);
+}
+
+.faq-section .panel-title a.collapsed span {
+  border-color: #715CF4;
+}
+
+.faq-section .panel-title a span {
+  min-width: 33px;
+  border-radius: 100%;
+  padding: 5px;
+  width: 33px;
+  line-height: 20px;
+  border: solid 2px #fff;
+  height: 33px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-title a {
+  color: #fff;
+}
+
+.faq-section .panel-title a {
+  background: #715CF4;
+}
+
+.faq-section .panel-title a.collapsed {
+  background: #fff;
+  color: #715CF4;
+}
+
+/* responshive */
+/* @media (min-width: 992px) and (max-width: 1200px) {
+    .service-card {
+      min-height: 400px;
+    }
+  } */
+@media screen and (max-width: 767px) {
+  .cont-container {
+    min-height: auto;
+  }
+  .desk-leder h4 {
+    font-size: 25px;
+  }
+  .service-card {
+    padding: 50px;
+  }
+  .key-bg-shop {
+    display: none;
+  }
+  /* estore> */
+  .e-store {
+    /* background-image: url(../images/solutions/ecommerce-solutions/free_trial.png); */
+    background: #3c3c3c;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 20px 10px;
+    min-height: auto;
+    /* position: relative; */
+  }
+  .store-left {
+    position: static;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-bottom: 15px;
+  }
+  .round-sec h2 {
+    font-size: 27px;
+  }
+  .round-sec p {
+    font-size: 16px;
+  }
+}
+/* sec3 */
+@media (min-width: 768px) and (max-width: 991px) {
+  .key-bg-shop-img {
+    position: absolute;
+    bottom: -15px;
+    right: 50px;
+    width: 381px;
+  }
+  .service-card {
+    min-height: 350px;
+  }
+  .uniquebox {
+    padding: 15px 30px;
+    margin: 30px 10px;
+  }
+  .feature {
+    margin-top: 80px;
+  }
+  .mt-100 {
+    margin: 0;
+  }
+  .round-sec h2 {
+    font-size: 28px;
+  }
+  .round-sec p {
+    font-size: 18px;
+  }
+  .e-store {
+    background-position: 25%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .key-bg-shop-img {
+    display: none;
+  }
+  .e-main-heading h1 span {
+    display: inline !important;
+  }
+  .work-caption p span {
+    display: inline !important;
+  }
+  .leader {
+    display: none;
+  }
+  .uniquebox {
+    background: #F5F4FE !important;
+    padding: 30px;
+    transition: 0.4s all;
+    margin: 4px 0px;
+    background: #F5F4FE;
+    height: 250px;
+    margin-top: 40px;
+  }
+  .left-position-img img {
+    top: -60px;
+    right: -40px;
+  }
+  .work-side-card,
+.card-last-box {
+    width: 100%;
+  }
+  .btn-blue {
+    font-size: 12px !important;
+    margin-top: 10px !important;
+  }
+  .work-card-caption p {
+    font-size: 14px;
+  }
+  .work-card-caption h5 {
+    font-size: 15px;
+  }
+  .work-side-logo img {
+    width: 165px !important;
+    padding-right: 10px;
+    min-height: 0;
+  }
+  .work-caption p {
+    font-size: 16px;
+  }
+  .mt-100 {
+    margin: 0;
+  }
+  .feature {
+    margin-top: 65px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .leader-caption {
+    width: 592px;
+    position: absolute;
+    top: 69px;
+    right: 40px;
+    margin: 0 auto;
+  }
+  .leader-caption-sanjivsir p {
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 13px;
+  }
+  .leader-caption-sanjivsir h3 {
+    padding-top: 0px;
+    color: #FFCD00;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 9px;
+  }
+  .leader-caption h2 {
+    color: #1A0A0B;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1430px) {
+  .leader-caption-sanjivsir p {
+    margin-top: 70px;
+    font-size: 16px;
+  }
+  .leader-caption h2 {
+    font-size: 36px;
+  }
+  .leader-caption {
+    top: 50px;
+    right: -125px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1017px) {
+  .round-sec h2 {
+    font-size: 31px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .leader-caption {
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    margin: 0 auto;
+  }
+  .leader-caption-sanjivsir p {
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 11px;
+  }
+  .leader-caption h2 {
+    color: #1A0A0B;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .leader-caption-sanjivsir h3 {
+    padding-top: 0px;
+    color: #FFCD00;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .leader {
+    background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/sanjivsir.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+    width: 118%;
+    min-height: 420px;
+    color: #fff;
+    position: relative;
+  }
+}
+.leader-desc-show h2 {
+  font-size: 25px;
+  color: #1a0a0b;
+  font-weight: 700;
+}
+
+.desk-leder {
+  background: #190a0b;
+  padding: 20px;
+}
+
+.desk-leder p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.desk-leder h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFCD00;
+}
+
+@media (min-width: 768px) {
+  .leader-mobile {
+    display: none;
+  }
+  .worklogo-sm {
+    display: none;
+  }
+  .work-side-logo-sm {
+    display: none;
+  }
+}
+/* new css start */
+.what-make .learning-card {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px 15px;
+  min-height: 340px;
+}
+.what-make .learning-card img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.what-make .learning-card h5 {
+  color: #474D71;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.what-make .learning-card p {
+  color: #9B9B9B;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.what-make .card-mbody {
+  padding: 0px 5px;
+}
+.what-make .top-inner .elearninghead h3 {
+  color: #333961;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+.what-make .top-inner .elearninghead h3 span {
+  color: #8D78FB;
+  font-weight: 700;
+}
+.what-make .top-inner .elearninghead p {
+  color: #A5A8B6;
+  font-size: 16px;
+  padding-top: 20px;
+  margin: 0;
+}
+.what-make .top-inner .card-mbody {
+  padding: 0px 5px;
+}
+.what-make .top-inner .learning-card1 {
+  background: #8D78FB !important;
+  color: #fff;
+}
+.what-make .top-inner .learning-card1 p {
+  color: #fff;
+}
+.what-make .top-inner .learning-card1 h5 {
+  color: #fff;
+}
+.what-make .bottom-inner {
+  margin-top: 30px;
+}
+.what-make .bottom-inner .floreplant {
+  width: 180px;
+  min-height: 180px;
+  position: absolute;
+  bottom: -74px;
+  left: -140px;
+  z-index: 100;
+}
+
+.h-20 {
+  height: 20px !important;
+}
+
+.sidereader img {
+  position: absolute;
+  margin-top: 40px;
+  max-width: 400px;
+  left: 0;
+}
+
+.main-left {
+  margin-top: 35px;
+  position: relative;
+}
+
+.floreplant {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main-left .floreplant {
+  position: absolute;
+  bottom: -75px;
+  left: -125px;
+  z-index: 100;
+}
+
+.elearning-main {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/elearningbanner.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  padding: 140px 0px;
+  position: relative;
+}
+.elearning-main .marce {
+  position: absolute;
+  bottom: -75px;
+  width: 200px;
+  min-height: 150px;
+  left: 70px;
+}
+.elearning-main .section-inner .top-main-heading h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+}
+.elearning-main .section-inner .top-main-heading h1 span {
+  position: relative;
+}
+.elearning-main .section-inner .top-main-heading h1 span img {
+  width: 95px;
+  top: -5px;
+  position: absolute;
+  height: 100px;
+  padding-left: 15px;
+}
+.elearning-main .section-inner .top-main-heading p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  padding: 35px 0;
+}
+.elearning-main .section-inner .top-main-heading .headcolor {
+  color: #FF7C1F;
+}
+
+.app-services {
+  padding-top: 30px !important;
+  box-sizing: border-box;
+  background: #f4f2ff;
+}
+
+.learning-main-heading {
+  text-align: center;
+  padding: 0px 30px;
+}
+.learning-main-heading h2 {
+  position: relative;
+  color: #213443;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.learning-main-heading h2 .e-wap {
+  display: inline;
+  color: #8D78FB;
+  font-weight: 700;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .learning-main-heading h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .learning-main-heading h2 {
+    font-size: 27px;
+    line-height: 1.2;
+  }
+}
+.learning-main-heading span {
+  color: #8D78FB;
+  font-weight: 700;
+}
+.learning-main-heading .heading-img {
+  height: 175px;
+  width: 175px;
+  position: absolute;
+}
+@media screen and (max-width: 767px) {
+  .learning-main-heading .heading-img {
+    height: 107px;
+    width: 107px;
+  }
+}
+.learning-main-heading .heading-img img {
+  top: -88px;
+  left: -105px;
+  position: absolute;
+}
+@media screen and (max-width: 767px) {
+  .learning-main-heading .heading-img img {
+    top: -57px;
+    left: -58px;
+  }
+}
+.learning-main-heading .pencil img {
+  top: -21px;
+  left: -71px;
+}
+@media screen and (max-width: 767px) {
+  .learning-main-heading .pencil img {
+    top: -1px !important;
+    left: -53px !important;
+    min-width: 101px !important;
+  }
+}
+
+.card-side {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-tittle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.card-tittle img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card-tittle h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #333961;
+  margin-left: 15px;
+}
+
+.active-card {
+  border: solid 1px #8D78FB !important;
+}
+
+.card-app {
+  margin-top: 30px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 210px;
+  border: solid 1px transparent;
+}
+.card-app:hover {
+  border: solid 1px #8D78FB;
+}
+
+.card-app p {
+  font-size: 16px;
+  padding-top: 12px;
+  color: #9B9B9B;
+  font-weight: 400;
+  margin: 0;
+}
+
+.do-work {
+  display: flex;
+  justify-content: center;
+  height: 499px;
+}
+
+.card-app-section {
+  margin-top: 40px;
+}
+
+.visit-button a {
+  padding: 10px 9px !important;
+  font-size: 14px !important;
+}
+
+.elearning-head a {
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+.elearning-head a:hover {
+  text-decoration: none;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .elearning-head a {
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .elearning-head a {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .elearning-head a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+.white-btn-c {
+  background: #ffffff;
+  color: #8D78FB;
+}
+.white-btn-c:hover {
+  background: #333961;
+  color: #fff;
+}
+
+.blue-btn {
+  background: linear-gradient(135deg, #AE9DFD 0%, #8E77F9 100%);
+  color: #fff;
+}
+.blue-btn img {
+  min-width: none;
+  width: 20px;
+  min-height: 20px;
+  display: inline;
+  padding: 0px 0px 2px 1px;
+}
+.blue-btn:hover {
+  background: #333961;
+  color: #fff;
+}
+
+.buttoncard {
+  background: linear-gradient(135deg, #AE9DFD 0%, #8E77F9 100%) !important;
+  font-size: 13px;
+  padding: 14px 10px;
+  font-family: "Poppins";
+}
+.buttoncard:hover {
+  background: #333961 !important;
+  color: #fff;
+}
+
+.free-trial {
+  background: #f4f2ff;
+  padding: 60px 0px 0px 0px !important;
+}
+.free-trial .banner-bg {
+  background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/freetrial-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .free-trial .banner-bg {
+    padding: 60px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .free-trial .banner-bg {
+    padding: 25px 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .free-trial .banner-bg {
+    padding: 25px 0px 50px;
+  }
+}
+.free-trial .free-trial-dna {
+  position: relative;
+}
+.free-trial .free-trial-dna img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: -260px;
+  left: -135px;
+  z-index: 100;
+}
+.free-trial .banner-cont {
+  position: relative;
+  z-index: 102;
+}
+.free-trial .banner-cont h2 {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .free-trial .banner-cont h2 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .free-trial .banner-cont h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .free-trial .banner-cont h2 {
+    font-size: 20px;
+  }
+}
+.free-trial .banner-cont p {
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .free-trial .banner-cont p {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .free-trial .banner-cont p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .free-trial .banner-cont p {
+    font-size: 16px;
+  }
+}
+.free-trial .banner-cont .white-btn {
+  background: #ffffff;
+  color: #8D78FB;
+}
+.free-trial .banner-cont .white-btn:hover {
+  background: #333961;
+  color: #fff;
+}
+.free-trial .banner-right-img img {
+  top: -239px;
+  left: -140px;
+  min-width: 427px;
+  min-height: 500px;
+  position: absolute;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .free-trial .banner-right-img img {
+    top: -199px;
+    left: -140px;
+    min-width: 307px;
+    min-height: 440px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .free-trial .banner-right-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .free-trial .banner-right-img {
+    display: none;
+  }
+}
+
+.success-story .success-story-main {
+  padding-top: 40px;
+  position: relative;
+}
+.success-story .success-story-main img {
+  width: 340px;
+  height: 414px;
+  position: absolute;
+  top: -190px;
+  left: -180px;
+  z-index: 100;
+}
+.success-story .our-best-works {
+  margin-top: 55px;
+}
+.success-story .our-best-works .success-story-para {
+  color: #1A0A0B;
+  text-align: center;
+  font-size: 19px;
+  padding: 15px 0px;
+  font-weight: 400;
+}
+
+.learning-success-section {
+  padding-top: 60px 0px;
+}
+.learning-success-section .success-story-main {
+  padding-top: 40px;
+  position: relative;
+}
+.learning-success-section .success-story-main img {
+  width: 340px;
+  height: 414px;
+  position: absolute;
+  top: -190px;
+  left: -180px;
+  z-index: 100;
+}
+.learning-success-section .our-best-works {
+  margin-top: 66px;
+}
+.learning-success-section .our-best-works .success-story-para {
+  color: #1A0A0B;
+  text-align: center;
+  font-size: 19px;
+  padding: 15px 0px;
+  font-weight: 400;
+}
+.learning-success-section .success-card1 {
+  background: linear-gradient(104.53deg, #17A5A5 3.31%, #057C7C 101.92%);
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+.learning-success-section .success-card {
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.learning-success-section .success-card .row {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.learning-success-section .success-card .success-card-left {
+  padding: 30px 0px 30px 30px;
+  min-height: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 1200px) {
+  .learning-success-section .success-card .success-card-left {
+    min-height: 666px !important;
+  }
+}
+.learning-success-section .success-card .success-card-left .about-project {
+  display: flex;
+  margin-bottom: 100px;
+}
+.learning-success-section .success-card .success-card-left .about-project .project-logo {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 10px;
+}
+.learning-success-section .success-card .success-card-left .about-project .project-logo img {
+  width: 100px;
+  height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 65px;
+}
+.learning-success-section .success-card .success-card-left .about-project .project-logo:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 70px;
+  width: 2px;
+  top: 10px;
+  right: 0px;
+}
+.learning-success-section .success-card .success-card-left .about-project .project-brief {
+  min-height: 232px;
+}
+.learning-success-section .success-card .success-card-left .about-project .project-brief p {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+.learning-success-section .success-card .success-card-left .client-review-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading {
+  margin-bottom: 15px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading h4 {
+  color: #0F0F0F;
+  font-size: 18px;
+  margin: 0px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border {
+  width: 60px;
+  display: block;
+  background-color: #8D78FB;
+  border-radius: 25px;
+  height: 3px;
+  position: relative;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  bottom: 0px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span:nth-child(1) {
+  right: 3px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span:nth-child(2) {
+  right: 12px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-heading .card-heading-border span:nth-child(3) {
+  right: 24px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .review-brief {
+  border-bottom: 1px solid #3C3C3C;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .review-brief p {
+  color: #1A0A0B;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0px 0px 15px;
+  font-weight: 500;
+  font-family: "Dosis", sans-serif;
+  height: 100px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 150px);
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-img {
+  margin-right: 10px;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-img img {
+  width: 55px;
+  height: 55px;
+  min-width: 55px;
+  border-radius: 100%;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h5 {
+  color: #1A0A0B;
+  font-size: 19px;
+  line-height: 22px;
+  margin: 0px;
+  font-weight: 600;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h6 {
+  color: #8D78FB;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0px;
+  font-weight: 600;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name span {
+  font-weight: 700;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .visit-button a {
+  color: #fff;
+  text-decoration: none;
+}
+.learning-success-section .success-card .success-card-left .client-review-card .card-bottom .visit-button .theme-buttoncard {
+  border-radius: 9px;
+  background: linear-gradient(135deg, #AE9DFD 0%, #8E77F9 100%) !important;
+  font-size: 12px;
+  display: inline-block;
+  padding: 15px 19px;
+  font-family: "Poppins";
+}
+.learning-success-section .success-card .project-image {
+  margin-bottom: -17px;
+}
+.learning-success-section .success-card .project-image img {
+  width: 100%;
+}
+.learning-success-section .success-card .auxpair-img {
+  margin-bottom: 0px !important;
+  text-align: center;
+}
+.learning-success-section .success-card .auxpair-img img {
+  max-width: 400px;
+  margin: 0px auto;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .learning-success-section .success-card .success-card .row {
+    justify-content: center;
+  }
+  .learning-success-section .success-card .success-card .success-card-left {
+    min-height: auto;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .about-project {
+    margin-bottom: 30px;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .client-review-card {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .learning-success-section .success-card .success-card .project-image img {
+    max-width: 400px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .learning-success-section .success-card {
+    padding-top: 40px;
+  }
+  .learning-success-section .success-card .success-card {
+    padding: 30px 15px;
+  }
+  .learning-success-section .success-card .success-card .success-card-left {
+    min-height: auto;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .row {
+    justify-content: center;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .about-project {
+    flex-flow: column;
+    margin-bottom: 30px;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .about-project .project-logo {
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .about-project .project-logo img {
+    margin: 0px auto 10px;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .about-project .project-logo:after {
+    display: none;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .client-review-card {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .client-review-card .card-bottom {
+    flex-flow: column;
+  }
+  .learning-success-section .success-card .success-card .success-card-left .client-review-card .card-bottom .client-info {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.leaders-learning {
+  background: #f4f2ff;
+  background-image: linear-gradient(#f4f2ff 50%, white 50%);
+}
+.leaders-learning .leader-joe img {
+  position: absolute;
+  min-width: 380px;
+  z-index: 100;
+  top: 5px;
+  left: 16px;
+}
+.leaders-learning .roun-division {
+  background: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/emptyblackboard.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  min-height: 380px;
+}
+.leaders-learning .round-contant {
+  position: absolute;
+  left: 155px;
+  width: 75%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.leaders-learning .round-contant h2 {
+  font-size: 30px;
+  font-family: "Chalktastic";
+  line-height: 40px;
+  margin: 0;
+}
+.leaders-learning .round-contant p {
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .leaders-learning .leader-joe img {
+    top: 18px;
+    min-width: 350px;
+  }
+  .leaders-learning .round-contant {
+    left: 180px;
+  }
+  .leaders-learning .round-contant h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .leaders-learning .round-contant p {
+    line-height: 1.3;
+    font-size: 18px;
+  }
+}
+.learning-offer-section {
+  position: relative;
+}
+.learning-offer-section .world-img {
+  height: 195px;
+  width: 200px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  z-index: -100;
+}
+.learning-offer-section .world-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.learning-offer-section .section-inner {
+  margin-top: 40px;
+}
+.learning-offer-section .section-inner .our-best-works .success-story-para {
+  color: #1A0A0B;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 0px;
+  font-weight: 400;
+  margin: 0px 0px 30px;
+}
+.learning-offer-section .section-inner .key-offer-box .box-top {
+  background: linear-gradient(135deg, #AE9DFD 0%, #8E77F9 100%);
+  padding: 20px 0px 20px 10px;
+}
+.learning-offer-section .section-inner .key-offer-box .box-top h3 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px;
+  font-weight: 500;
+}
+.learning-offer-section .section-inner .key-offer-box .box-mid {
+  background: #333961;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-top: -10px;
+  margin-left: 15px;
+  margin-right: -15px;
+  min-height: 225px;
+}
+.learning-offer-section .section-inner .key-offer-box .box-mid p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 767px) {
+  .learning-offer-section .section-inner .key-offer-box .box-mid {
+    padding: 15px 30px 15px 15px;
+    min-height: auto;
+  }
+  .learning-offer-section .section-inner .owl-carousel .owl-nav button {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 100%;
+    background-color: rgba(142, 119, 249, 0.8);
+  }
+}
+
+.e-marketplace {
+  padding-top: 30px !important;
+  box-sizing: border-box;
+  background: #f4f2ff;
+}
+.e-marketplace .e-marketplace-inner {
+  margin-top: 100px;
+}
+.e-marketplace .feature {
+  background: #ffffff;
+  border-radius: 10px;
+}
+.e-marketplace .feature .feature-subtittle {
+  border-radius: 10px;
+  background: linear-gradient(135deg, #AE9DFD 0%, #8E77F9 100%);
+}
+.e-marketplace .feature .feature-subtittle .left-position-feature {
+  padding: 15px 0px;
+  position: relative;
+}
+.e-marketplace .feature .feature-subtittle .left-position-feature h4 {
+  text-align: center;
+  padding-left: 70px;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.e-marketplace .feature .feature-subtittle .left-position-feature .custmers {
+  position: absolute;
+  width: 127px;
+  min-height: 100px;
+  top: -47px;
+  left: 15px;
+}
+.e-marketplace .feature .feature-subtittle .left-position-feature .custmers img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.e-marketplace .feature .cont-container {
+  min-height: 585px;
+  position: relative;
+}
+.e-marketplace .feature .cont-container .point-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  padding-bottom: 1px;
+}
+.e-marketplace .feature .cont-container .point-list p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #1A0A0B;
+}
+.e-marketplace .feature .cont-container .point-list img {
+  width: 25px;
+  height: 8px;
+  margin-top: 7px;
+  margin-right: 15px;
+}
+.e-marketplace .feature .cont-container .book-sec {
+  width: 350px;
+  min-height: 350px;
+  position: absolute;
+  right: -170px;
+  bottom: -150px;
+}
+.e-marketplace .feature .cont-container .book-sec img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.elearning-award {
+  position: relative;
+}
+.elearning-award .awardside-img {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.elearning-award .award .award-inner {
+  margin-top: 100px;
+}
+
+.technical-architecture-section {
+  background-color: #f4f2ff;
+  padding-bottom: 90px;
+}
+.technical-architecture-section .technical-architecture-main {
+  padding-top: 40px;
+  position: relative;
+}
+.technical-architecture-section .technical-architecture-main img {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: -140px;
+  right: -180px;
+}
+.technical-architecture-section .section-inner .tech-section .tech-heading {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.technical-architecture-section .section-inner .tech-section .tech-heading h3 {
+  color: #1A0A0B;
+  font-size: 28px;
+  line-height: 22px;
+  margin-top: 75px;
+  font-weight: 500;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 10px 10px;
+  width: 23%;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top {
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+  border-bottom: 1px solid rgba(26, 10, 11, 0.23);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top .tech-icon {
+  background-color: #333961;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.05);
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top .tech-icon img {
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top .icon-name span {
+  color: #8D78FB;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-mid h5 {
+  color: #0F0F0F;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.technical-architecture-section .section-inner .tech-info-img {
+  margin-top: 25px;
+}
+.technical-architecture-section .section-inner .tech-info-img img {
+  width: 100%;
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card {
+    margin: 20px 8px 10px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card {
+    margin: 20px 10px 30px;
+    width: 45%;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card:nth-last-child(1) {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .technical-architecture-section .section-inner .tech-section .tech-card-list {
+    flex-flow: column;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.contact-cta-section {
+  position: relative;
+  padding: 0px;
+  margin-top: -122px;
+}
+.contact-cta-section img {
+  width: 100%;
+}
+.contact-cta-section .section-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.contact-cta-section .section-inner .cta-content-area {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.contact-cta-section .section-inner .cta-content-area .cta-heading {
+  margin-bottom: 15px;
+}
+.contact-cta-section .section-inner .cta-content-area .cta-heading h2 {
+  color: white;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 0px 0px 4px;
+  font-weight: 600;
+}
+.contact-cta-section .section-inner .cta-content-area .cta-heading p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 45px;
+  margin: 0px;
+  font-weight: 400;
+}
+.contact-cta-section .section-inner .cta-content-area .cta-icon .theme-button {
+  font-size: 12px;
+  padding: 8px 25px;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .contact-cta-section {
+    margin-top: -90px;
+  }
+  .contact-cta-section img {
+    min-height: 340px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .contact-cta-section .section-inner .cta-content-area {
+    padding-top: 75px;
+    padding-bottom: 0px;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading h2 {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading p {
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact-cta-section {
+    background-color: #3f332e;
+  }
+  .contact-cta-section img {
+    display: none;
+  }
+  .contact-cta-section .section-inner {
+    position: static;
+  }
+  .contact-cta-section .section-inner .cta-content-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading {
+    text-align: center;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-icon {
+    text-align: center;
+  }
+}
+
+.faq-part {
+  padding-top: 92px !important;
+  background-size: cover;
+}
+.faq-part .panel-group {
+  margin-top: 60px;
+}
+.faq-part .panel-group .panel {
+  border: none;
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #8D78FB;
+  border-radius: 0px !important;
+}
+.faq-part .panel-group .panel .panel-heading {
+  padding: 0;
+}
+.faq-part .panel-group .panel .panel-heading a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 0px;
+  background-color: #fff;
+  color: #0F0F0F;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.faq-part .panel-group .panel .panel-heading a:hover {
+  text-decoration: none;
+}
+.faq-part .panel-group .panel .panel-heading a span {
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  color: #0F0F0F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-part .panel-group .panel .panel-heading a:not(.collapsed) {
+  color: #8D78FB;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: #fff;
+}
+.faq-part .panel-group .panel .panel-heading a:not(.collapsed) span {
+  border-color: #8D78FB;
+  color: #fff;
+}
+.faq-part .panel-group .panel .panel-heading a:not(.collapsed) span i {
+  color: #8D78FB;
+}
+.faq-part .panel-group .panel .panel-heading a:not(.collapsed) span i::before {
+  content: "\f068";
+}
+.faq-part .panel-group .panel .panel-body {
+  padding: 0px 0px 15px;
+  border-top: none;
+  color: #8D78FB;
+  background: #fff;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.faq-part .panel-group .panel .panel-body .panel-body-inner {
+  padding-top: 20px;
+  border-top: 1px solid #e2ddfd;
+  font-weight: 500;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.owl-carousel .owl-nav button {
+  border: 0px;
+  padding: 0px;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+.owl-carousel .owl-nav button img {
+  width: 34px;
+  min-width: 34px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  margin-left: -40px;
+}
+.owl-carousel .owl-nav .owl-next {
+  margin-right: -40px;
+}
+@media screen and (max-width: 1299px) and (min-width: 1200px) {
+  .owl-carousel .owl-nav button img {
+    width: 25px;
+    min-width: 25px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    margin-left: -26px;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    margin-right: -26px;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .owl-carousel .owl-nav button img {
+    width: 30px;
+    min-width: 30px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    margin-left: -26px;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    margin-right: -26px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .owl-carousel .owl-nav button img {
+    width: 30px;
+    min-width: 30px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    margin-left: -18px;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    margin-right: -18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .owl-carousel .owl-nav button img {
+    width: 30px;
+    min-width: 30px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    margin-left: -10px;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    margin-right: -10px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .elearning-award .awardside-img {
+    top: -60px;
+    left: 20px;
+  }
+  .technical-architecture-section .technical-architecture-main img {
+    right: -67px;
+  }
+  .learning-success-section .success-story-main img {
+    left: -80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .elearning-main {
+    background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/blackBoard.webp);
+    margin-top: 35px;
+    padding: 40px 10px 90px 0px;
+  }
+  .elearning-main .section-inner .top-main-heading h1 span img {
+    width: 75px;
+    height: 75px;
+  }
+  .elearning-main .section-inner .top-main-heading h1 {
+    font-size: 34px;
+    line-height: 52px;
+  }
+  .elearning-main .section-inner .top-main-heading p {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-brief p {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .elearning-main .marce {
+    bottom: -85px;
+    width: 175px;
+  }
+  .top-main-heading .headcolor .d-block {
+    display: block !important;
+  }
+  .top-main-heading .d-block {
+    display: inline !important;
+  }
+  .sidereader {
+    display: none;
+  }
+  .what-make .top-inner .elearninghead h3 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+  }
+  .what-make .top-inner .elearninghead p {
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .what-make .learning-card {
+    padding: 20px 10px;
+    min-height: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .what-make .learning-card img {
+    width: 60px;
+    min-height: 60px;
+  }
+  .what-make .learning-card h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .what-make .learning-card p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .bottom-inner {
+    margin-top: 0px;
+  }
+  .do-work {
+    height: auto;
+  }
+  .card-app {
+    margin-top: 30px;
+    padding: 20px 10px;
+    min-height: auto;
+  }
+  .card-tittle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-tittle img {
+    width: 55px;
+    height: 55px;
+  }
+  .card-tittle h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 8px;
+  }
+  .free-trial .banner-cont {
+    z-index: 0;
+  }
+  .card-app p {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-top: 5px;
+    text-align: center;
+  }
+  .free-trial .free-trial-dna img {
+    width: 150px;
+    height: 150px;
+    top: -125px;
+    left: -25px;
+  }
+  .e-marketplace .feature .feature-subtittle .left-position-feature .custmers {
+    top: -55px;
+  }
+  .e-marketplace .feature .feature-subtittle .left-position-feature h4 {
+    padding-left: 80px;
+    font-size: 20px;
+  }
+  .free-trial {
+    padding: 20px 0px 0px 0px !important;
+  }
+  .learning-success-section .success-story-main img {
+    width: 150px;
+    height: 150px;
+    top: -106px;
+    left: -35px;
+  }
+  .learning-success-section .our-best-works {
+    margin-top: 30px;
+  }
+  .learning-offer-section .section-inner .key-offer-box .box-top h3 {
+    font-size: 16px;
+  }
+  .learning-offer-section .section-inner .key-offer-box .box-mid p {
+    font-size: 14px;
+  }
+  .learning-offer-section .section-inner {
+    margin-top: 25px;
+  }
+  .learning-success-section .our-best-works .success-story-para {
+    font-size: 16px;
+    padding: 15px 5px;
+  }
+  .learning-offer-section .section-inner .our-best-works .success-story-para {
+    font-size: 16px !important;
+    margin: 0;
+  }
+  .e-marketplace .feature .cont-container .point-list p {
+    font-size: 16px;
+  }
+  .learning-success-section .success-card {
+    padding-top: 0px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project {
+    flex-direction: column;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-logo {
+    position: static;
+    margin: auto;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-logo img {
+    margin: 20px 0px;
+  }
+  .learning-success-section .success-card .success-card-left {
+    padding: 12px;
+    min-height: 652px;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom {
+    align-items: start;
+    flex-direction: column;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info {
+    padding-bottom: 5px;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info {
+    width: 100%;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h6 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom {
+    padding-top: 5px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-brief {
+    min-height: 170px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project {
+    margin-bottom: 30px;
+  }
+  .e-marketplace .e-marketplace-inner {
+    margin-top: 20px;
+  }
+  .e-marketplace .feature .cont-container {
+    min-height: auto;
+  }
+  .e-marketplace .feature .cont-container .book-sec {
+    width: 140px;
+    min-height: 140px;
+    right: -20px;
+    bottom: -90px;
+  }
+  .elearning-award .awardside-img {
+    height: 120px;
+    width: 120px;
+    top: 83px;
+    left: 0;
+  }
+  .elearning-award .award .award-inner {
+    margin-top: 75px;
+  }
+  .technical-architecture-section .technical-architecture-main img {
+    width: 150px;
+    height: 150px;
+    top: -91px;
+    right: -8px;
+  }
+  .contact-cta-section {
+    margin-top: 0px;
+  }
+  .contact-cta-section .section-inner .cta-content-area {
+    text-align: center;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading h2 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-heading h3 {
+    font-size: 18px;
+    line-height: 8px;
+    margin-top: 55px;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top .icon-name span {
+    font-size: 18px;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-mid h5 {
+    font-size: 16px;
+  }
+  .technical-architecture-section {
+    padding-bottom: 40px;
+  }
+  .what-make .bottom-inner .floreplant, .learning-success-section .success-card .project-image, .learning-offer-section .world-img {
+    display: none;
+  }
+  .faq-part .panel-group .panel .panel-heading a {
+    padding: 10px 0px;
+    letter-spacing: 0px;
+    font-size: 14px;
+  }
+  .faq-part .panel-group .panel .panel-heading a:not(.collapsed) {
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+  .faq-part .panel-group .panel .panel-body .panel-body-inner {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  .faq-part {
+    padding-top: 40px !important;
+  }
+  .faq-part .panel-group {
+    margin-top: 40px;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top {
+    align-items: center;
+  }
+  .leaders-learning {
+    padding: 40px 0px 10px 0px !important;
+  }
+  .leaders-learning .leader-joe img {
+    min-width: 250px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    margin: 30px auto;
+  }
+  .leaders-learning .roun-division {
+    background-position: center;
+  }
+  .leaders-learning .round-contant {
+    position: static;
+    left: 155px;
+    width: 100%;
+    margin-top: 68px;
+    padding: 285px 15px 40px;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .leaders-learning .round-contant h2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .leaders-learning .round-contant p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .learning-offer-section {
+    padding-top: 0;
+  }
+  .success-story-para {
+    font-size: 14px;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .review-brief p {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .awardside-img {
+    display: none;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top .tech-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top .tech-icon img {
+    height: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .learning-success-section .success-card .success-card-left {
+    min-height: 563px;
+  }
+  .elearning-main {
+    background-image: url(https://d1fxfakb0fcon3.cloudfront.net/images/solutions/eLearning-web-app-development/blackBoard.webp);
+    margin-top: 35px;
+    padding: 40px 10px 90px 0px;
+  }
+  .elearning-main .marce {
+    bottom: -85px;
+    width: 175px;
+  }
+  .elearning-main .section-inner .top-main-heading p {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .elearninghead {
+    padding-bottom: 30px;
+  }
+  .free-trial .free-trial-dna img {
+    width: 209px;
+    height: 209px;
+    position: absolute;
+    top: -182px;
+    left: -41px;
+    z-index: 100;
+  }
+  .learning-success-section .success-story-main img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -9px;
+    left: -50px;
+    z-index: 100;
+  }
+  .admin-f {
+    min-height: auto !important;
+  }
+  .e-marketplace .feature .cont-container .book-sec {
+    width: 220px;
+    min-height: 220px;
+    position: absolute;
+    right: -110px;
+    bottom: -27px;
+  }
+  .leaders-learning {
+    padding: 40px 0px 10px 0px !important;
+  }
+  .leaders-learning .leader-joe img {
+    min-width: 250px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    margin: 30px auto;
+  }
+  .leaders-learning .roun-division {
+    background-position: center;
+  }
+  .leaders-learning .round-contant {
+    position: static;
+    left: 155px;
+    width: 100%;
+    margin-top: 68px;
+    padding: 285px 60px 40px;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .leaders-learning .round-contant h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .leaders-learning .round-contant p {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.3;
+  }
+  .learning-offer-section {
+    padding-top: 0;
+  }
+  .elearning-award .awardside-img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list {
+    justify-content: space-between;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-top {
+    align-items: center;
+  }
+  .technical-architecture-section .technical-architecture-main img {
+    width: 214px;
+    height: 214px;
+    position: absolute;
+    top: -140px;
+    right: -90px;
+  }
+  .e-marketplace .e-marketplace-inner {
+    margin-top: 40px;
+  }
+  .e-marketplace .e-marketplace-inner .feature {
+    margin-top: 75px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-brief {
+    padding-right: 20px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project {
+    margin-bottom: 0 !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .learning-success-section .success-card .success-card-left {
+    min-height: 675px;
+  }
+  .elearning-main .section-inner .top-main-heading h1 {
+    font-size: 52px;
+  }
+  .elearning-main {
+    padding: 90px 0px;
+  }
+  .do-work {
+    height: 520px;
+  }
+  .free-trial .free-trial-dna img {
+    width: 250px;
+    height: 250px;
+    top: -220px;
+    left: -65px;
+  }
+  .learning-success-section .success-story-main img {
+    width: 272px;
+    height: 272px;
+    top: -135px;
+    left: -67px;
+  }
+  .contact-cta-section .section-inner .cta-content-area .cta-heading h2 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .contact-cta-section .section-inner .cta-content-area {
+    padding-bottom: 10px;
+  }
+  .contact-cta-section img {
+    min-height: 370px;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card .card-mid h5 {
+    font-size: 14px;
+    line-height: 0;
+  }
+  .technical-architecture-section .section-inner .tech-section .tech-card-list .tech-card {
+    padding: 18px 15px;
+  }
+  .technical-architecture-section .technical-architecture-main img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -138px;
+    right: -60px;
+  }
+  .learning-offer-section .section-inner .key-offer-box .box-mid {
+    min-height: 262px;
+  }
+  .world-img {
+    display: none;
+  }
+  .e-marketplace .feature .cont-container .book-sec {
+    width: 259px;
+    min-height: 350px;
+    position: absolute;
+    right: -45px;
+    bottom: -160px;
+  }
+  .e-marketplace .feature .cont-container {
+    min-height: 636px;
+  }
+  .leaders-learning .leader-joe img {
+    min-width: 300px;
+    top: 38px;
+    left: 16px;
+  }
+  .elearning-award .awardside-img {
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: -50px;
+  }
+  .leaders-learning .roun-division {
+    min-height: 360px;
+  }
+  .leaders-learning .round-contant p {
+    font-size: 16px;
+  }
+  .what-make .top-inner .elearninghead h3 {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  .what-make .top-inner .elearninghead p {
+    font-size: 16px;
+  }
+  .what-make .top-inner .card-mbody {
+    padding: 0;
+  }
+  .what-make .top-inner .learning-card {
+    min-height: 363px;
+  }
+  .what-make .bottom-inner .learning-card {
+    min-height: 404px;
+  }
+  .what-make .learning-card h5 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .what-make .learning-card p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .sidereader img {
+    margin-top: 189px;
+    max-width: 270px;
+    left: 0;
+  }
+  .what-make .bottom-inner .floreplant {
+    display: none;
+  }
+  .learning-success-section {
+    padding: 40px 0px !important;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h5 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .learning-success-section .success-card .success-card-left .client-review-card .card-bottom .client-info .client-name h6 {
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-brief p {
+    line-height: 1.3;
+    font-size: 20px;
+  }
+  .learning-success-section .success-card .success-card-left .about-project .project-brief {
+    min-height: 240px;
+  }
+}/*# sourceMappingURL=eLearning-web-app-development.css.map */
